@@ -1,0 +1,4464 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-08 08:57-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Incorrect Input!"
+msgstr ""
+
+msgid "Select The File You Wish To Upload"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Pay Start Date:"
+msgstr ""
+
+msgid "Pay End Date:"
+msgstr ""
+
+msgid "Payment Date:"
+msgstr ""
+
+msgid "STATEMENT OF EARNINGS AND DEDUCTIONS"
+msgstr ""
+
+msgid "Earnings"
+msgstr ""
+
+msgid "Rate"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Amount"
+msgstr ""
+
+msgid "YTD Hours"
+msgstr ""
+
+msgid "YTD Amount"
+msgstr ""
+
+msgid "Pay Period %1 of %2"
+msgstr ""
+
+msgid "Deductions"
+msgstr ""
+
+msgid "Net Pay"
+msgstr ""
+
+msgid "Balance"
+msgstr ""
+
+msgid ">Employer Contributions"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "NON NEGOTIABLE"
+msgstr ""
+
+msgid "CONFIDENTIAL"
+msgstr ""
+
+msgid "Balance:"
+msgstr ""
+
+msgid "Net Pay:"
+msgstr ""
+
+msgid "Employee Status:"
+msgstr ""
+
+msgid "Pay Period:"
+msgstr ""
+
+msgid "Employee:"
+msgstr ""
+
+msgid "Group:"
+msgstr ""
+
+msgid "Default Branch:"
+msgstr ""
+
+msgid "Default Department:"
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid "#"
+msgstr ""
+
+msgid "Functions"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Hide Employer Contributions:"
+msgstr ""
+
+msgid "Mark Paid"
+msgstr ""
+
+msgid "Mark UnPaid"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "UnDelete"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Debit Account"
+msgstr ""
+
+msgid "Credit Account"
+msgstr ""
+
+msgid "Add Presets"
+msgstr ""
+
+msgid "Are you sure you want to add all presets based on your company location?"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Total Gross:"
+msgstr ""
+
+msgid "Total Employee Deduction:"
+msgstr ""
+
+msgid "Total Employer Deduction:"
+msgstr ""
+
+msgid "Total Net Pay:"
+msgstr ""
+
+msgid "Regular Time Earnings:"
+msgstr ""
+
+msgid "Employee CPP:"
+msgstr ""
+
+msgid "Employee EI:"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "WARNING: Manually editing pay stubs can result in incorrect amounts being calculated for things such as taxes and vacation accrual.nPlease use Pay Stub Amendments instead.nDO NOT EDIT PAY STUBS MANUALLY UNLESS ABSOLUTELY NECCESARY!"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+msgid "Currency:"
+msgstr ""
+
+msgid "Hrs/Units"
+msgstr ""
+
+msgid "Employer Contributions"
+msgstr ""
+
+msgid "Accrual"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Type:"
+msgstr ""
+
+msgid "Name:"
+msgstr ""
+
+msgid "Order:"
+msgstr ""
+
+msgid "Accrual:"
+msgstr ""
+
+msgid "Debit Account:"
+msgstr ""
+
+msgid "Credit Account:"
+msgstr ""
+
+msgid "YOUR BANK NAME"
+msgstr ""
+
+msgid "YOUR BANK ADDRESS"
+msgstr ""
+
+msgid "City, Province, Postal Code"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Debit Account Number"
+msgstr ""
+
+msgid "Credit Account Number"
+msgstr ""
+
+msgid "Pay Period"
+msgstr ""
+
+msgid "Start Date:"
+msgstr ""
+
+msgid "End Date:"
+msgstr ""
+
+msgid "Advance"
+msgstr ""
+
+msgid "Less Advance"
+msgstr ""
+
+msgid "Net"
+msgstr ""
+
+msgid "Employer Deductions"
+msgstr ""
+
+msgid "Net:"
+msgstr ""
+
+msgid "Recurring PS Amendment:"
+msgstr ""
+
+msgid "Description:"
+msgstr ""
+
+msgid "Frequency:"
+msgstr ""
+
+msgid "Employees:"
+msgstr ""
+
+msgid "UnAssigned Employees"
+msgstr ""
+
+msgid "Assigned Employees"
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "Un-Select All"
+msgstr ""
+
+msgid "Employees Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Pay Stub Amendment"
+msgstr ""
+
+msgid "Pay Stub Account:"
+msgstr ""
+
+msgid "Amount Type:"
+msgstr ""
+
+msgid "Rate:"
+msgstr ""
+
+msgid "Units:"
+msgstr ""
+
+msgid "Amount:"
+msgstr ""
+
+msgid "Percent:"
+msgstr ""
+
+msgid "Percent Of:"
+msgstr ""
+
+msgid "Recalculate"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "PS Amendments"
+msgstr ""
+
+msgid "Unable to obtain rate when multiple employees are selected."
+msgstr ""
+
+msgid "Unable to obtain rate when no employee is selected."
+msgstr ""
+
+msgid "Employee(s):"
+msgstr ""
+
+msgid "UnSelected Employees"
+msgstr ""
+
+msgid "Selected Employees"
+msgstr ""
+
+msgid "Get Employee Rate"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Effective Date:"
+msgstr ""
+
+msgid "Year to Date (YTD) Adjustment:"
+msgstr ""
+
+msgid "Logo:"
+msgstr ""
+
+msgid "Click the \"...\" icon to upload a logo."
+msgstr ""
+
+msgid "Logo Width:"
+msgstr ""
+
+msgid "Logo Height:"
+msgstr ""
+
+msgid "Logo Left/Right Position:"
+msgstr ""
+
+msgid "Logo Top/Bottom Position:"
+msgstr ""
+
+msgid "Table Header Color:"
+msgstr ""
+
+msgid "Note:"
+msgstr ""
+
+msgid "Display on Invoice"
+msgstr ""
+
+msgid "Company Address:"
+msgstr ""
+
+msgid "Phone:"
+msgstr ""
+
+msgid "Fax:"
+msgstr ""
+
+msgid "Part Numbers:"
+msgstr ""
+
+msgid "Invoice Email"
+msgstr ""
+
+msgid "From Address:"
+msgstr ""
+
+msgid "Bcc Address:"
+msgstr ""
+
+msgid "Subject:"
+msgstr ""
+
+msgid "Body:"
+msgstr ""
+
+msgid "Payment Gateway"
+msgstr ""
+
+msgid "Driver:"
+msgstr ""
+
+msgid "Customer ID:"
+msgstr ""
+
+msgid "User Name:"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Country:"
+msgstr ""
+
+msgid "Province / State:"
+msgstr ""
+
+msgid "Client:"
+msgstr ""
+
+msgid "Billing Contact:"
+msgstr ""
+
+msgid "Shipping Contact:"
+msgstr ""
+
+msgid "Other Contact:"
+msgstr ""
+
+msgid "PO Number:"
+msgstr ""
+
+msgid "Invoice #:"
+msgstr ""
+
+msgid "N/A"
+msgstr ""
+
+msgid "Invoice Date:"
+msgstr ""
+
+msgid "Order Date:"
+msgstr ""
+
+msgid "Payment Required:"
+msgstr ""
+
+msgid "Shipped Date:"
+msgstr ""
+
+msgid "Tracking Number:"
+msgstr ""
+
+msgid "Shipping Policy:"
+msgstr ""
+
+msgid "Part Number"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "QTY"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Payment Type"
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "Confirmation Number"
+msgstr ""
+
+msgid "Note (private):"
+msgstr ""
+
+msgid "Note (public):"
+msgstr ""
+
+msgid "Email Invoice To Contact(s):"
+msgstr ""
+
+msgid "Contacts"
+msgstr ""
+
+msgid "Invoices"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "Effective Date"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Invoiced"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Invoice"
+msgstr ""
+
+msgid "Transactions"
+msgstr ""
+
+msgid "Invoice #"
+msgstr ""
+
+msgid "Invoice Date"
+msgstr ""
+
+msgid "Packing Slip"
+msgstr ""
+
+msgid "Current Balance:"
+msgstr ""
+
+msgid "View Invoice"
+msgstr ""
+
+msgid "View Packing Slip"
+msgstr ""
+
+msgid "Payment Gateway:"
+msgstr ""
+
+msgid "Selection Criteria"
+msgstr ""
+
+msgid "Credit Card Type:"
+msgstr ""
+
+msgid "Priority:"
+msgstr ""
+
+msgid "Gateway Credentials"
+msgstr ""
+
+msgid "Product:"
+msgstr ""
+
+msgid "Quantity:"
+msgstr ""
+
+msgid "Unit Cost:"
+msgstr ""
+
+msgid "Unit Price:"
+msgstr ""
+
+msgid "Payment Type:"
+msgstr ""
+
+msgid "Payment Method:"
+msgstr ""
+
+msgid "Confirmation Number:"
+msgstr ""
+
+msgid "Payment Process Date:"
+msgstr ""
+
+msgid "Payment Process Message:"
+msgstr ""
+
+msgid "District"
+msgstr ""
+
+msgid "Province / State"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Station ID:"
+msgstr ""
+
+msgid "Source:"
+msgstr ""
+
+msgid "Default Punch Settings"
+msgstr ""
+
+msgid "Branch"
+msgstr ""
+
+msgid "Department"
+msgstr ""
+
+msgid "Job"
+msgstr ""
+
+msgid "Task"
+msgstr ""
+
+msgid "Time Clock Configuration"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "COMM Key"
+msgstr ""
+
+msgid "Port:"
+msgstr ""
+
+msgid "Force Time Zone:"
+msgstr ""
+
+msgid "Enable Automatic Punch Status:"
+msgstr ""
+
+msgid "Configuration Modes:"
+msgstr ""
+
+msgid "Manual Command:"
+msgstr ""
+
+msgid "Run Now"
+msgstr ""
+
+msgid "Time Clock Synchronization"
+msgstr ""
+
+msgid "Download Frequency:"
+msgstr ""
+
+msgid "Last Download"
+msgstr ""
+
+msgid "Full Upload Frequency:"
+msgstr ""
+
+msgid "Last Upload"
+msgstr ""
+
+msgid "Partial Upload Frequency:"
+msgstr ""
+
+msgid "Last Downloaded Punch:"
+msgstr ""
+
+msgid "Employee Criteria"
+msgstr ""
+
+msgid "Employee Groups"
+msgstr ""
+
+msgid "Selection Type"
+msgstr ""
+
+msgid "UnSelected Groups"
+msgstr ""
+
+msgid "Selected Groups"
+msgstr ""
+
+msgid "Employee Groups Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Branches"
+msgstr ""
+
+msgid "UnSelected Branches"
+msgstr ""
+
+msgid "Selected Branches"
+msgstr ""
+
+msgid "Branches Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Departments"
+msgstr ""
+
+msgid "UnSelected Departments"
+msgstr ""
+
+msgid "Selected Departments"
+msgstr ""
+
+msgid "Departments Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Include Employees"
+msgstr ""
+
+msgid "Exclude Employees"
+msgstr ""
+
+msgid "Station ID"
+msgstr ""
+
+msgid "Source"
+msgstr ""
+
+msgid "Employees"
+msgstr ""
+
+msgid "Accrual Policy:"
+msgstr ""
+
+msgid "Date:"
+msgstr ""
+
+msgid "Active After:"
+msgstr ""
+
+msgid "for"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Code:"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Task:"
+msgstr ""
+
+msgid "Estimated Time:"
+msgstr ""
+
+msgid "Estimated Quantity:"
+msgstr ""
+
+msgid "Estimated Bad Quantity:"
+msgstr ""
+
+msgid "Bad Quantity Billable Rate:"
+msgstr ""
+
+msgid "Billable Rate:"
+msgstr ""
+
+msgid "Minimum Billable Time:"
+msgstr ""
+
+msgid "Job:"
+msgstr ""
+
+msgid "Estimated Time"
+msgstr ""
+
+msgid "Billable Rate"
+msgstr ""
+
+msgid "Next available code"
+msgstr ""
+
+msgid "Barcode:"
+msgstr ""
+
+msgid "Exclusivity:"
+msgstr ""
+
+msgid "Attachments"
+msgstr ""
+
+msgid "Group"
+msgstr ""
+
+msgid "Parent:"
+msgstr ""
+
+msgid "<b>NOTICE:</b> There is a new version of <b>TimeTrex</b> available."
+msgstr ""
+
+msgid "This version may contain tax table updates necessary for accurate payroll calculation, we recommend that you upgrade as soon as possible."
+msgstr ""
+
+msgid "The latest version can be downloaded from:"
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "Product Edition:"
+msgstr ""
+
+msgid "Version:"
+msgstr ""
+
+msgid "Check For Updates"
+msgstr ""
+
+msgid "Tax Engine Version:"
+msgstr ""
+
+msgid "Tax Data Version:"
+msgstr ""
+
+msgid "Registration Key:"
+msgstr ""
+
+msgid "Maintenance Jobs Last Ran:"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "License Information"
+msgstr ""
+
+msgid "WARNING:"
+msgstr ""
+
+msgid "Upload License:"
+msgstr ""
+
+msgid "Click the \"...\" icon to upload a license file."
+msgstr ""
+
+msgid "Company:"
+msgstr ""
+
+msgid "Active Employee Licenses:"
+msgstr ""
+
+msgid "Issue Date:"
+msgstr ""
+
+msgid "Expire Date:"
+msgstr ""
+
+msgid "Schema Version"
+msgstr ""
+
+msgid "Group A:"
+msgstr ""
+
+msgid "Group B:"
+msgstr ""
+
+msgid "Group T:"
+msgstr ""
+
+msgid "Employees (Active / InActive)"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Heading"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+msgid "ID:"
+msgstr ""
+
+msgid "Script:"
+msgstr ""
+
+msgid "Help:"
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Private:"
+msgstr ""
+
+msgid "Heading:"
+msgstr ""
+
+msgid "Keywords:"
+msgstr ""
+
+msgid "Position:"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "X"
+msgstr ""
+
+msgid "Click the item you wish to get help on."
+msgstr ""
+
+msgid ""
+"You may use the position links at the top of this window to move it around the screen,\n"
+"\t\t\t\tor to close the window press the X in the upper right of this window, or press the ESC key."
+msgstr ""
+
+msgid "Sorry, no help is available for that item yet."
+msgstr ""
+
+msgid "Help Group Control"
+msgstr ""
+
+msgid "Help Group"
+msgstr ""
+
+msgid "Help Entries"
+msgstr ""
+
+msgid "Glossary"
+msgstr ""
+
+msgid "Sorry, no help is available at this moment."
+msgstr ""
+
+msgid "Version 3.0.0"
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Version 2.2.0"
+msgstr ""
+
+msgid "Version 2.1.0"
+msgstr ""
+
+msgid "Script Name:"
+msgstr ""
+
+msgid "Time and Attendance - Secure Login"
+msgstr ""
+
+msgid "Your password has been changed successfully, you may now login."
+msgstr ""
+
+msgid "User Name"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Forgot Your Password?"
+msgstr ""
+
+msgid "Secure Login"
+msgstr ""
+
+msgid "Bookmark This Page!"
+msgstr ""
+
+msgid "Permission DENIED!"
+msgstr ""
+
+msgid "Permission Presets:"
+msgstr ""
+
+msgid "Job Tracking"
+msgstr ""
+
+msgid "Invoicing"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "Apply Preset"
+msgstr ""
+
+msgid "Display Permissions:"
+msgstr ""
+
+msgid "Table of Contents"
+msgstr ""
+
+msgid "Employee List"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Allow"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "Full Name:"
+msgstr ""
+
+msgid "Short Name:"
+msgstr ""
+
+msgid "Business / Employer Identification Number:"
+msgstr ""
+
+msgid "Address (Line 1):"
+msgstr ""
+
+msgid "Address (Line 2):"
+msgstr ""
+
+msgid "City:"
+msgstr ""
+
+msgid "Postal / ZIP Code:"
+msgstr ""
+
+msgid "Administrative Contact:"
+msgstr ""
+
+msgid "Primary Support Contact:"
+msgstr ""
+
+msgid "Direct Deposit (EFT)"
+msgstr ""
+
+msgid "Originator ID / Immediate Origin:"
+msgstr ""
+
+msgid "Data Center / Immediate Destination:"
+msgstr ""
+
+msgid "Company Settings"
+msgstr ""
+
+msgid "Click the \"...\" icon to upload a company logo. (170px by 40px)"
+msgstr ""
+
+msgid "Enable Second Surname:"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "Avg"
+msgstr ""
+
+msgid "Max"
+msgstr ""
+
+msgid "Bank"
+msgstr ""
+
+msgid "Other ID1"
+msgstr ""
+
+msgid "Other ID2"
+msgstr ""
+
+msgid "Other ID3"
+msgstr ""
+
+msgid "Other ID4"
+msgstr ""
+
+msgid "Other ID5"
+msgstr ""
+
+msgid "Calculation"
+msgstr ""
+
+msgid "Calculation Order"
+msgstr ""
+
+msgid "Employee Settings"
+msgstr ""
+
+msgid "Eligibility Criteria"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "ie"
+msgstr ""
+
+msgid "(Leave blank for no start date)"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "(Leave blank for no end date)"
+msgstr ""
+
+msgid "Minimum Length Of Service:"
+msgstr ""
+
+msgid "Maximum Length Of Service:"
+msgstr ""
+
+msgid "Calculation Criteria"
+msgstr ""
+
+msgid "Calculation:"
+msgstr ""
+
+msgid "District / County:"
+msgstr ""
+
+msgid "Calculation Order:"
+msgstr ""
+
+msgid "Include Pay Stub Accounts:"
+msgstr ""
+
+msgid "Pay Stub Account Value"
+msgstr ""
+
+msgid "Pay Stub Accounts"
+msgstr ""
+
+msgid "Included Pay Stub Accounts"
+msgstr ""
+
+msgid "Included Pay Stub Accounts Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Exclude Pay Stub Accounts:"
+msgstr ""
+
+msgid "Excluded Pay Stub Accounts"
+msgstr ""
+
+msgid "Excluded Pay Stub Accounts Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Unassigned Employees"
+msgstr ""
+
+msgid "Employee"
+msgstr ""
+
+msgid "Percent"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Annual Wage Base/Maximum Earnings"
+msgstr ""
+
+msgid "Annual Deduction Amount"
+msgstr ""
+
+msgid "Annual Amount Greater Than"
+msgstr ""
+
+msgid "Annual Amount Less Than"
+msgstr ""
+
+msgid "Annual Fixed Amount"
+msgstr ""
+
+msgid "Annual Exempt Amount"
+msgstr ""
+
+msgid "Target Balance/Limit"
+msgstr ""
+
+msgid "Filing Status"
+msgstr ""
+
+msgid "Allowances"
+msgstr ""
+
+msgid "Claim Amount"
+msgstr ""
+
+msgid "Percent of Federal"
+msgstr ""
+
+msgid "Dependants"
+msgstr ""
+
+msgid "Employee / Spouse Allowances"
+msgstr ""
+
+msgid "Dependant Allowances"
+msgstr ""
+
+msgid "IL-W-4 Line 1"
+msgstr ""
+
+msgid "IL-W-4 Line 2"
+msgstr ""
+
+msgid "Age 65/Blind"
+msgstr ""
+
+msgid "District / County Rate"
+msgstr ""
+
+msgid "County Rate"
+msgstr ""
+
+msgid "Sorry, no employees are assigned to this Tax / Deduction."
+msgstr ""
+
+msgid "District / County Name"
+msgstr ""
+
+msgid "Other ID1:"
+msgstr ""
+
+msgid "Other ID2:"
+msgstr ""
+
+msgid "Other ID3:"
+msgstr ""
+
+msgid "Other ID4:"
+msgstr ""
+
+msgid "Other ID5:"
+msgstr ""
+
+msgid "Punch Failed!"
+msgstr ""
+
+msgid "Time:"
+msgstr ""
+
+msgid "Job/Task"
+msgstr ""
+
+msgid "Transfer:"
+msgstr ""
+
+msgid "Branch:"
+msgstr ""
+
+msgid "Department:"
+msgstr ""
+
+msgid "Type/Status"
+msgstr ""
+
+msgid "Good:"
+msgstr ""
+
+msgid "Bad:"
+msgstr ""
+
+msgid "Branch/Dept"
+msgstr ""
+
+msgid "You are not authorized to punch in or out from this station!"
+msgstr ""
+
+msgid "Success!"
+msgstr ""
+
+msgid "Login Failed!"
+msgstr ""
+
+msgid "Phone ID:"
+msgstr ""
+
+msgid "Level"
+msgstr ""
+
+msgid "FINAL"
+msgstr ""
+
+msgid "This employee is at the final authorization level."
+msgstr ""
+
+msgid "Shared:"
+msgstr ""
+
+msgid "Objects"
+msgstr ""
+
+msgid "Shared"
+msgstr ""
+
+msgid "Objects:"
+msgstr ""
+
+msgid "(Select one or more)"
+msgstr ""
+
+msgid "Subordinates:"
+msgstr ""
+
+msgid "NOTE:"
+msgstr ""
+
+msgid "Level one denotes the top or last level of the hierarchy and employees at the same level share responsibilities."
+msgstr ""
+
+msgid "Superiors"
+msgstr ""
+
+msgid "Add Level"
+msgstr ""
+
+msgid "Delete Level"
+msgstr ""
+
+msgid "Basic Search"
+msgstr ""
+
+msgid "Advanced Search"
+msgstr ""
+
+msgid "Saved Search & Layout"
+msgstr ""
+
+msgid "Columns:"
+msgstr ""
+
+msgid "Hide Columns"
+msgstr ""
+
+msgid "Display Columns"
+msgstr ""
+
+msgid "Sort By:"
+msgstr ""
+
+msgid "Save Search As:"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Previous Saved Searches:"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Supervisor:"
+msgstr ""
+
+msgid "Default Task:"
+msgstr ""
+
+msgid "NOTE"
+msgstr ""
+
+msgid "Set estimates to 0 to use Task Billable Amounts instead."
+msgstr ""
+
+msgid "Estimate Time:"
+msgstr ""
+
+msgid "Minimum Time:"
+msgstr ""
+
+msgid "Estimate Quantity:"
+msgstr ""
+
+msgid "Estimate Bad Quantity:"
+msgstr ""
+
+msgid "Bad Quantity Rate:"
+msgstr ""
+
+msgid "Task Criteria"
+msgstr ""
+
+msgid "Task Groups"
+msgstr ""
+
+msgid "Include Tasks"
+msgstr ""
+
+msgid "UnSelected Tasks"
+msgstr ""
+
+msgid "Selected Tasks"
+msgstr ""
+
+msgid "Exclude Tasks"
+msgstr ""
+
+msgid "Actual"
+msgstr ""
+
+msgid "Estimate"
+msgstr ""
+
+msgid "Difference"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Qty"
+msgstr ""
+
+msgid "Cost"
+msgstr ""
+
+msgid "Root"
+msgstr ""
+
+msgid "Billable"
+msgstr ""
+
+msgid "Percent of Estimate"
+msgstr ""
+
+msgid "Schedule:"
+msgstr ""
+
+msgid "Labor Cost:"
+msgstr ""
+
+msgid "Billable Cost:"
+msgstr ""
+
+msgid "Summary Totals"
+msgstr ""
+
+msgid "Total Actual Cost:"
+msgstr ""
+
+msgid "Total Estimated Cost:"
+msgstr ""
+
+msgid "Cost Difference:"
+msgstr ""
+
+msgid "Cost Difference %:"
+msgstr ""
+
+msgid "Total Billable Estimated Cost:"
+msgstr ""
+
+msgid "Billable Difference %:"
+msgstr ""
+
+msgid "Total Billable:"
+msgstr ""
+
+msgid "No Job Found"
+msgstr ""
+
+msgid "Task Amendments"
+msgstr ""
+
+msgid "Policy"
+msgstr ""
+
+msgid "O/R"
+msgstr ""
+
+msgid "Show System Time:"
+msgstr ""
+
+msgid "Totals"
+msgstr ""
+
+msgid "Worked Time"
+msgstr ""
+
+msgid "Total Time"
+msgstr ""
+
+msgid "Severity:"
+msgstr ""
+
+msgid "Exception:"
+msgstr ""
+
+msgid "Show Pre-Mature:"
+msgstr ""
+
+msgid "No Exceptions Found"
+msgstr ""
+
+msgid "Repeat Absence for:"
+msgstr ""
+
+msgid "day(s) after above date."
+msgstr ""
+
+msgid "ie:"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Available Balance:"
+msgstr ""
+
+msgid "Override:"
+msgstr ""
+
+msgid "Punch Branch:"
+msgstr ""
+
+msgid "Punch Department:"
+msgstr ""
+
+msgid "No Punches Found"
+msgstr ""
+
+msgid "Punch Type:"
+msgstr ""
+
+msgid "In/Out:"
+msgstr ""
+
+msgid "Bad"
+msgstr ""
+
+msgid "Absence Policy:"
+msgstr ""
+
+msgid "Overtime Policy:"
+msgstr ""
+
+msgid "Premium Policy:"
+msgstr ""
+
+msgid "Meal Policy:"
+msgstr ""
+
+msgid "(Must override to modify)"
+msgstr ""
+
+msgid "Actual Time:"
+msgstr ""
+
+msgid "Repeat Punch for:"
+msgstr ""
+
+msgid "Disable Rounding:"
+msgstr ""
+
+msgid "Station:"
+msgstr ""
+
+msgid "Location:"
+msgstr ""
+
+msgid "Latitude"
+msgstr ""
+
+msgid "Longitude"
+msgstr ""
+
+msgid "Created By:"
+msgstr ""
+
+msgid "Updated By:"
+msgstr ""
+
+msgid "Only These Day(s):"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Sat"
+msgstr ""
+
+msgid "In / Out"
+msgstr ""
+
+msgid "TimeSheet"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "JobTracking"
+msgstr ""
+
+msgid "Docs"
+msgstr ""
+
+msgid "Admin"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "MyAccount"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "MyTimeSheet"
+msgstr ""
+
+msgid "Punches"
+msgstr ""
+
+msgid "Mass Punch"
+msgstr ""
+
+msgid "Requests"
+msgstr ""
+
+msgid "Exceptions"
+msgstr ""
+
+msgid "Accruals"
+msgstr ""
+
+msgid "Pay Stubs"
+msgstr ""
+
+msgid "MySchedule"
+msgstr ""
+
+msgid "Scheduled Shifts"
+msgstr ""
+
+msgid "Mass Schedule"
+msgstr ""
+
+msgid "Recurring Schedule"
+msgstr ""
+
+msgid "Recurring Schedule Template"
+msgstr ""
+
+msgid "Jobs"
+msgstr ""
+
+msgid "Tasks"
+msgstr ""
+
+msgid "Job Groups"
+msgstr ""
+
+msgid "Clients"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Policies"
+msgstr ""
+
+msgid "Districts"
+msgstr ""
+
+msgid "Client Groups"
+msgstr ""
+
+msgid "Product Groups"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Tax Policies"
+msgstr ""
+
+msgid "Shipping Policies"
+msgstr ""
+
+msgid "Area Policies"
+msgstr ""
+
+msgid "Document Groups"
+msgstr ""
+
+msgid "Employee Administration"
+msgstr ""
+
+msgid "Company"
+msgstr ""
+
+msgid "Payroll"
+msgstr ""
+
+msgid "Authorization"
+msgstr ""
+
+msgid "Company Administration"
+msgstr ""
+
+msgid "Help Administration"
+msgstr ""
+
+msgid "Help Group Administration"
+msgstr ""
+
+msgid "Company Information"
+msgstr ""
+
+msgid "Employee Titles"
+msgstr ""
+
+msgid "Currencies"
+msgstr ""
+
+msgid "Wage Groups"
+msgstr ""
+
+msgid "Stations"
+msgstr ""
+
+msgid "Permission Groups"
+msgstr ""
+
+msgid "New Hire Defaults"
+msgstr ""
+
+msgid "Hierarchy"
+msgstr ""
+
+msgid "Company Bank Information"
+msgstr ""
+
+msgid "Recurring Holidays"
+msgstr ""
+
+msgid "Other Fields"
+msgstr ""
+
+msgid "Policy Groups"
+msgstr ""
+
+msgid "Schedule Policies"
+msgstr ""
+
+msgid "Rounding Policies"
+msgstr ""
+
+msgid "Meal Policies"
+msgstr ""
+
+msgid "Break Policies"
+msgstr ""
+
+msgid "Accrual Policies"
+msgstr ""
+
+msgid "Overtime Policies"
+msgstr ""
+
+msgid "Premium Policies"
+msgstr ""
+
+msgid "Absence Policies"
+msgstr ""
+
+msgid "Exception Policies"
+msgstr ""
+
+msgid "Holiday Policies"
+msgstr ""
+
+msgid "End of Pay Period"
+msgstr ""
+
+msgid "Pay Stub Amendments"
+msgstr ""
+
+msgid "Recurring PS Amendments"
+msgstr ""
+
+msgid "Pay Period Schedules"
+msgstr ""
+
+msgid "Taxes / Deductions"
+msgstr ""
+
+msgid "Pay Stub Account Linking"
+msgstr ""
+
+msgid "Job Reports"
+msgstr ""
+
+msgid "Invoice Reports"
+msgstr ""
+
+msgid "Whos In Summary"
+msgstr ""
+
+msgid "Employee Information Summary"
+msgstr ""
+
+msgid "Employee Detail"
+msgstr ""
+
+msgid "Timesheet Summary"
+msgstr ""
+
+msgid "Timesheet Detail"
+msgstr ""
+
+msgid "Punch Summary"
+msgstr ""
+
+msgid "Accrual Balance Summary"
+msgstr ""
+
+msgid "Pay Stub Summary"
+msgstr ""
+
+msgid "Wages Payable Summary"
+msgstr ""
+
+msgid "Payroll Export"
+msgstr ""
+
+msgid "Audit Trail"
+msgstr ""
+
+msgid "General Ledger Summary"
+msgstr ""
+
+msgid "Employee Barcodes"
+msgstr ""
+
+msgid "Tax Reports"
+msgstr ""
+
+msgid "Job Summary"
+msgstr ""
+
+msgid "Job Analysis"
+msgstr ""
+
+msgid "Job Payroll Analysis"
+msgstr ""
+
+msgid "Barcodes"
+msgstr ""
+
+msgid "Transaction Summary"
+msgstr ""
+
+msgid "Remittance Summary"
+msgstr ""
+
+msgid "T4 Summary"
+msgstr ""
+
+msgid "T4A Summary"
+msgstr ""
+
+msgid "Form 941"
+msgstr ""
+
+msgid "FUTA - Form 940"
+msgstr ""
+
+msgid "FUTA - Form 940-EZ"
+msgstr ""
+
+msgid "Form 1099-Misc"
+msgstr ""
+
+msgid "Form W2 / W3"
+msgstr ""
+
+msgid "Tax Summary (Generic)"
+msgstr ""
+
+msgid "Messages"
+msgstr ""
+
+msgid "Contact Information"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "Web Password"
+msgstr ""
+
+msgid "Phone Password"
+msgstr ""
+
+msgid "Bank Information"
+msgstr ""
+
+msgid "Online University"
+msgstr ""
+
+msgid "Administrator Guide"
+msgstr ""
+
+msgid "Support Forums"
+msgstr ""
+
+msgid "What's New"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "%1 for %2"
+msgstr ""
+
+msgid "Institution Number:"
+msgstr ""
+
+msgid "Bank Transit:"
+msgstr ""
+
+msgid "Account Number:"
+msgstr ""
+
+msgid "Routing Number:"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Transaction"
+msgstr ""
+
+msgid ""
+"WARNING: Deleting a pay period will also delete all punches assigned to that pay period. Once data is deleted it can not be recovered.\n"
+"\n"
+"Are you sure you wish to continue?"
+msgstr ""
+
+msgid "Advance End Date:"
+msgstr ""
+
+msgid "Advance Transaction Date:"
+msgstr ""
+
+msgid "Transaction Date:"
+msgstr ""
+
+msgid "Step 1: Confirm all requests are authorized, and exceptions are handled."
+msgstr ""
+
+msgid "Pending Requests"
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "Verified TimeSheets"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Verified"
+msgstr ""
+
+msgid "Verifications"
+msgstr ""
+
+msgid "There are no Pay Periods past their end date yet."
+msgstr ""
+
+msgid "All pay periods are currently closed."
+msgstr ""
+
+msgid "Step 2: Lock Pay Period to prevent changes."
+msgstr ""
+
+msgid "Lock"
+msgstr ""
+
+msgid "UnLock"
+msgstr ""
+
+msgid "Step 3: Submit all Pay Stub Amendments."
+msgstr ""
+
+msgid "Step 4: Generate and Review Pay Stubs."
+msgstr ""
+
+msgid "Summary"
+msgstr ""
+
+msgid "Generate Pay Stubs"
+msgstr ""
+
+msgid "Step 5: Transfer Funds or Write Checks."
+msgstr ""
+
+msgid "Step 6: Close Pay Period."
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid ""
+"Once a Pay Period is closed it cannot be re-opened, and Pay Stubs cannot be modified.\n"
+"\n"
+"Are you sure you want to close this Pay Period now?"
+msgstr ""
+
+msgid "Overtime Week:"
+msgstr ""
+
+msgid "Pay Period Daily Start Time:"
+msgstr ""
+
+msgid "(Hours from Midnight)"
+msgstr ""
+
+msgid "Minimum Time-Off Between Shifts:"
+msgstr ""
+
+msgid "Only for shifts that span midnight"
+msgstr ""
+
+msgid "Maximum Shift Time:"
+msgstr ""
+
+msgid "Assign Shifts To:"
+msgstr ""
+
+msgid "TimeSheet Verification Window"
+msgstr ""
+
+msgid "Before Pay Period End Date:"
+msgstr ""
+
+msgid "Day(s)"
+msgstr ""
+
+msgid "Before Pay Period Transaction Date:"
+msgstr ""
+
+msgid "Pay Period Dates"
+msgstr ""
+
+msgid "Annual Pay Periods:"
+msgstr ""
+
+msgid "Pay Period Starts On:"
+msgstr ""
+
+msgid "at"
+msgstr ""
+
+msgid "(days after end of pay period)"
+msgstr ""
+
+msgid "Primary"
+msgstr ""
+
+msgid "Pay Period Start Day Of Month:"
+msgstr ""
+
+msgid "Transaction Day Of Month:"
+msgstr ""
+
+msgid "Secondary"
+msgstr ""
+
+msgid "Transaction Always on Business Day:"
+msgstr ""
+
+msgid "Create Initial Pay Periods From:"
+msgstr ""
+
+msgid "Total Punches:"
+msgstr ""
+
+msgid "Pending Requests:"
+msgstr ""
+
+msgid "Exceptions:"
+msgstr ""
+
+msgid "Action:"
+msgstr ""
+
+msgid "Generate Paystubs"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "'This will import Employee shifts from other pay periods in to this pay period. Are you sure you want to continue?'"
+msgstr ""
+
+msgid "Once a Pay Period is closed it cannot be re-opened, and Pay Stubs cannot be modified. Are you sure you want to close this Pay Period now?"
+msgstr ""
+
+msgid "ERROR: Form has not been setup yet! Please click the arrow below to do so now."
+msgstr ""
+
+msgid "Form Setup:"
+msgstr ""
+
+msgid "Specify which criteria is used for each box in the form. Click arrow to modify."
+msgstr ""
+
+msgid "Insurable Earnings (Box 15B):"
+msgstr ""
+
+msgid "Vacation Pay (Box 17A):"
+msgstr ""
+
+msgid "Reason:"
+msgstr ""
+
+msgid "Pay Period Type:"
+msgstr ""
+
+msgid "First Day Worked:"
+msgstr ""
+
+msgid "(Or first day since last ROE)"
+msgstr ""
+
+msgid "Last Day For Which Paid:"
+msgstr ""
+
+msgid "Final Pay Period Ending Date:"
+msgstr ""
+
+msgid "Expected Date of Recall:"
+msgstr ""
+
+msgid "Insurable Hours:"
+msgstr ""
+
+msgid "Insurable Earnings:"
+msgstr ""
+
+msgid "Vacation Pay:"
+msgstr ""
+
+msgid "Serial No:"
+msgstr ""
+
+msgid "Comments:"
+msgstr ""
+
+msgid "Generate Final Pay Stub:"
+msgstr ""
+
+msgid "First Day"
+msgstr ""
+
+msgid "Last Day"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Print"
+msgstr ""
+
+msgid "[R]"
+msgstr ""
+
+msgid "Absent:"
+msgstr ""
+
+msgid "Scheduled:"
+msgstr ""
+
+msgid "Total:"
+msgstr ""
+
+msgid "<b>NOTICE:</b> This pay period is currently locked, modifications are not permitted."
+msgstr ""
+
+msgid "Repeat Schedule for:"
+msgstr ""
+
+msgid "In:"
+msgstr ""
+
+msgid "Out:"
+msgstr ""
+
+msgid "Schedule Policy:"
+msgstr ""
+
+msgid "Template:"
+msgstr ""
+
+msgid "Start Week:"
+msgstr ""
+
+msgid "Auto-Pilot:"
+msgstr ""
+
+msgid "Schedule Branch:"
+msgstr ""
+
+msgid "Schedule Department:"
+msgstr ""
+
+msgid "No Scheduled Shifts Found"
+msgstr ""
+
+msgid "Saved Schedules"
+msgstr ""
+
+msgid "Schedule Filter Criteria"
+msgstr ""
+
+msgid "Groups"
+msgstr ""
+
+msgid "Default Branch"
+msgstr ""
+
+msgid "Default Department"
+msgstr ""
+
+msgid "Scheduled Branch"
+msgstr ""
+
+msgid "Scheduled Department"
+msgstr ""
+
+msgid "Employee Title"
+msgstr ""
+
+msgid "Titles"
+msgstr ""
+
+msgid "Show:"
+msgstr ""
+
+msgid "View:"
+msgstr ""
+
+msgid "View Schedule"
+msgstr ""
+
+msgid "Print Schedule"
+msgstr ""
+
+msgid "Group Schedule"
+msgstr ""
+
+msgid "To set different In/Out times for each day of the week, add additional weeks all with the same week number."
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "S"
+msgstr ""
+
+msgid "M"
+msgstr ""
+
+msgid "T"
+msgstr ""
+
+msgid "W"
+msgstr ""
+
+msgid "F"
+msgstr ""
+
+msgid "In"
+msgstr ""
+
+msgid "Out"
+msgstr ""
+
+msgid "Schedule Policy"
+msgstr ""
+
+msgid "Add Week"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Schedule is subject to change without notice."
+msgstr ""
+
+msgid "Overwrite Existing Shifts:"
+msgstr ""
+
+msgid "0 Requests found."
+msgstr ""
+
+msgid "Pending TimeSheets"
+msgstr ""
+
+msgid "0 TimeSheets found."
+msgstr ""
+
+msgid "Authorization History"
+msgstr ""
+
+msgid "Authorized"
+msgstr ""
+
+msgid "Branches:"
+msgstr ""
+
+msgid "Server response time:"
+msgstr ""
+
+msgid "seconds."
+msgstr ""
+
+msgid "Tax Policy:"
+msgstr ""
+
+msgid "Tax Number:"
+msgstr ""
+
+msgid "Display Number on Invoice:"
+msgstr ""
+
+msgid "Include Area Policy:"
+msgstr ""
+
+msgid "Exclude Area Policy:"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Base Price:"
+msgstr ""
+
+msgid "Price:"
+msgstr ""
+
+msgid "Minimum Price:"
+msgstr ""
+
+msgid "Not including handling fee"
+msgstr ""
+
+msgid "Maximum Price:"
+msgstr ""
+
+msgid "Handling Fee:"
+msgstr ""
+
+msgid "Display Order:"
+msgstr ""
+
+msgid "Weight Unit:"
+msgstr ""
+
+msgid "Carrier Rate Server"
+msgstr ""
+
+msgid "Primary Account:"
+msgstr ""
+
+msgid "Secondary Account:"
+msgstr ""
+
+msgid "Markup Percent:"
+msgstr ""
+
+msgid "Area Criteria"
+msgstr ""
+
+msgid "Tax Area Policy:"
+msgstr ""
+
+msgid "District:"
+msgstr ""
+
+msgid "Include Tax Policy:"
+msgstr ""
+
+msgid "Exclude Tax Policy:"
+msgstr ""
+
+msgid "Part #"
+msgstr ""
+
+msgid "Unit Price"
+msgstr ""
+
+msgid "Part Number:"
+msgstr ""
+
+msgid "Lock Description:"
+msgstr ""
+
+msgid "UPC:"
+msgstr ""
+
+msgid "Current Stock:"
+msgstr ""
+
+msgid "Pricing"
+msgstr ""
+
+msgid "Price Type:"
+msgstr ""
+
+msgid "or more"
+msgstr ""
+
+msgid "Add Bracket"
+msgstr ""
+
+msgid "Lock Price:"
+msgstr ""
+
+msgid "Minimum Purchase Quantity:"
+msgstr ""
+
+msgid "Maximum Purchase Quantity:"
+msgstr ""
+
+msgid "Shipping"
+msgstr ""
+
+msgid "Weight:"
+msgstr ""
+
+msgid "Dimension Unit:"
+msgstr ""
+
+msgid "Length:"
+msgstr ""
+
+msgid "Width:"
+msgstr ""
+
+msgid "Height:"
+msgstr ""
+
+msgid "Origin Country:"
+msgstr ""
+
+msgid "Tariff Code:"
+msgstr ""
+
+msgid "Customs Unit Value:"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Saved Reports"
+msgstr ""
+
+msgid "ERROR: Report has not been setup yet! Please click the arrow below to do so now."
+msgstr ""
+
+msgid "Report Setup:"
+msgstr ""
+
+msgid "Specify which Pay Stub Accounts total for each box in the form. Click arrow to modify."
+msgstr ""
+
+msgid "Wages, tips and other compensation (Line 2):"
+msgstr ""
+
+msgid "Income Tax (Line 3):"
+msgstr ""
+
+msgid "Taxable Social Security Wages (Line 5a):"
+msgstr ""
+
+msgid "Taxable Social Security Tips (Line 5b):"
+msgstr ""
+
+msgid "Taxable Medicare Wages (Line 5c):"
+msgstr ""
+
+msgid "Sick Pay (Line 7b):"
+msgstr ""
+
+msgid "Earned Income Credit (EIC) (Line 9):"
+msgstr ""
+
+msgid "Schedule Depositor:"
+msgstr ""
+
+msgid "Total Deposits For This Quarter:"
+msgstr ""
+
+msgid "Report Filter Criteria"
+msgstr ""
+
+msgid "Quarter:"
+msgstr ""
+
+msgid "Year:"
+msgstr ""
+
+msgid "Employee Status"
+msgstr ""
+
+msgid "Employee Statuses"
+msgstr ""
+
+msgid "Display Form"
+msgstr ""
+
+msgid "Print Form"
+msgstr ""
+
+msgid "No results match your filter criteria."
+msgstr ""
+
+msgid "Generated:"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Display Report"
+msgstr ""
+
+msgid "Federal Income Tax Withheld (Box 4):"
+msgstr ""
+
+msgid "Medical and Health Care Payments (Box 6):"
+msgstr ""
+
+msgid "Nonemployee compensation (Box 7):"
+msgstr ""
+
+msgid "State ID Number"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Employer State ID Number"
+msgstr ""
+
+msgid "Transaction Start Date:"
+msgstr ""
+
+msgid "Transaction End Date:"
+msgstr ""
+
+msgid "Include Instruction Pages:"
+msgstr ""
+
+msgid "Pension Or Superannuation (Box: 16):"
+msgstr ""
+
+msgid "Lump-sum Payments (Box: 18):"
+msgstr ""
+
+msgid "Income Tax Deducted (Box: 22):"
+msgstr ""
+
+msgid "Eligible Retiring Allowances (Box: 26):"
+msgstr ""
+
+msgid "Non-Eligible Retiring Allowances (Box: 27):"
+msgstr ""
+
+msgid "Other Income (Box: 28):"
+msgstr ""
+
+msgid "RPP Contributions (Box: 32):"
+msgstr ""
+
+msgid "Pension Adjustment (Box: 34):"
+msgstr ""
+
+msgid "Charitable Donations (Box: 46):"
+msgstr ""
+
+msgid "Form Type:"
+msgstr ""
+
+msgid "Include Instruction Page:"
+msgstr ""
+
+msgid "Display T4A's"
+msgstr ""
+
+msgid "Leave blank for no date restriction"
+msgstr ""
+
+msgid "Statuses"
+msgstr ""
+
+msgid "Client"
+msgstr ""
+
+msgid "Include Jobs"
+msgstr ""
+
+msgid "Exclude Jobs"
+msgstr ""
+
+msgid "Employee Group"
+msgstr ""
+
+msgid "Supervisor"
+msgstr ""
+
+msgid "UnSelected Employee Statuses"
+msgstr ""
+
+msgid "Selected Employee Statuses"
+msgstr ""
+
+msgid "currently selected, click the arrow to modify."
+msgstr ""
+
+msgid "Employee Title:"
+msgstr ""
+
+msgid "UnSelected Titles"
+msgstr ""
+
+msgid "Selected Titles"
+msgstr ""
+
+msgid "Include Employees:"
+msgstr ""
+
+msgid "Exclude Employees:"
+msgstr ""
+
+msgid "UnSelected Columns"
+msgstr ""
+
+msgid "Selected Columns"
+msgstr ""
+
+msgid "then:"
+msgstr ""
+
+msgid "Pay Period(s):"
+msgstr ""
+
+msgid "CPP Contributions"
+msgstr ""
+
+msgid "EI Premiums"
+msgstr ""
+
+msgid "Tax Deductions"
+msgstr ""
+
+msgid "Current Payment"
+msgstr ""
+
+msgid "Gross Payroll"
+msgstr ""
+
+msgid "No. of Employees"
+msgstr ""
+
+msgid "End of Period"
+msgstr ""
+
+msgid "Due Date"
+msgstr ""
+
+msgid "Type of Return:"
+msgstr ""
+
+msgid "Exempt Payments:"
+msgstr ""
+
+msgid "Total Payments (Line 3):"
+msgstr ""
+
+msgid "Exempt Payments (Line 4):"
+msgstr ""
+
+msgid "FUTA Tax Deposited For The Year (Line 13):"
+msgstr ""
+
+msgid "A. Did you pay UI contributions to only one state?"
+msgstr ""
+
+msgid "Wages, Tips, Other Compensation (Box 1):"
+msgstr ""
+
+msgid "Federal Income Tax Withheld (Box 2):"
+msgstr ""
+
+msgid "Social Security Wages (Box 3):"
+msgstr ""
+
+msgid "Social Security Tax Withheld (Box 4):"
+msgstr ""
+
+msgid "Medicare Wages and Tips (Box 5):"
+msgstr ""
+
+msgid "Medicare Tax Withheld (Box 6):"
+msgstr ""
+
+msgid "Social Security Tips (Box 7):"
+msgstr ""
+
+msgid "Allocated Tips (Box 8):"
+msgstr ""
+
+msgid "Advance EIC Payment (Box 9):"
+msgstr ""
+
+msgid "Dependent Care Benefits (Box 10):"
+msgstr ""
+
+msgid "Nonqualified Plans (Box 11):"
+msgstr ""
+
+msgid "Box 12a:"
+msgstr ""
+
+msgid "Box 12b:"
+msgstr ""
+
+msgid "Box 12c:"
+msgstr ""
+
+msgid "Box 12d:"
+msgstr ""
+
+msgid "Box 14 (Other):"
+msgstr ""
+
+msgid "Pay Periods"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Export Format:"
+msgstr ""
+
+msgid "(Pay stub only)"
+msgstr ""
+
+msgid "View Pay Stubs"
+msgstr ""
+
+msgid "Group By:"
+msgstr ""
+
+msgid "Punch Branch"
+msgstr ""
+
+msgid "Punch Department"
+msgstr ""
+
+msgid "Job Group"
+msgstr ""
+
+msgid "Automatic Refresh:"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Employee/Employer EI Accounts:"
+msgstr ""
+
+msgid "Employee/Employer CPP Accounts:"
+msgstr ""
+
+msgid "Income Tax Accounts:"
+msgstr ""
+
+msgid "Job Start Date:"
+msgstr ""
+
+msgid "Job End Date:"
+msgstr ""
+
+msgid "Tax"
+msgstr ""
+
+msgid "Taxes"
+msgstr ""
+
+msgid "Transaction Date Format:"
+msgstr ""
+
+msgid "Province:"
+msgstr ""
+
+msgid "Hired Date:"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+msgid "Termination Date:"
+msgstr ""
+
+msgid "Birth Date:"
+msgstr ""
+
+msgid "yrs old"
+msgstr ""
+
+msgid "Wage History"
+msgstr ""
+
+msgid "Wage"
+msgstr ""
+
+msgid "No Wage History"
+msgstr ""
+
+msgid "Attendance History"
+msgstr ""
+
+msgid "Per Day"
+msgstr ""
+
+msgid "Per Week"
+msgstr ""
+
+msgid "Per Month"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Weeks"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Days Worked:"
+msgstr ""
+
+msgid "Regular Time:"
+msgstr ""
+
+msgid "Exception History"
+msgstr ""
+
+msgid "Exception"
+msgstr ""
+
+msgid "Day of Week"
+msgstr ""
+
+msgid "No Exception History"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Object"
+msgstr ""
+
+msgid "State where you pay contributions:"
+msgstr ""
+
+msgid "State Reporting Number:"
+msgstr ""
+
+msgid "Total Payments (Line 1):"
+msgstr ""
+
+msgid "Exempt Payments (Line 2):"
+msgstr ""
+
+msgid "Export Format Settings"
+msgstr ""
+
+msgid "ADP Hours"
+msgstr ""
+
+msgid "ADP Hours Code"
+msgstr ""
+
+msgid "Overtime: "
+msgstr ""
+
+msgid "Premium: "
+msgstr ""
+
+msgid "Absence: "
+msgstr ""
+
+msgid "Paychex Hours Code"
+msgstr ""
+
+msgid "Ceridian Hours Code"
+msgstr ""
+
+msgid "Millenium Hours Code"
+msgstr ""
+
+msgid "Exactly as shown in Quickbooks"
+msgstr ""
+
+msgid "Exactly as shown in exported timer list"
+msgstr ""
+
+msgid "Quickbooks Payroll Item Name"
+msgstr ""
+
+msgid "Payroll Code"
+msgstr ""
+
+msgid "Is your payroll company or software package not in the list?"
+msgstr ""
+
+msgid "Our highly skilled developers will be happy to add it for you, in most cases this can take less then 72 hours to complete, please contact our sales department for more information."
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Debit"
+msgstr ""
+
+msgid "Credit"
+msgstr ""
+
+msgid "Difference:"
+msgstr ""
+
+msgid "Job Status"
+msgstr ""
+
+msgid "Job Branch"
+msgstr ""
+
+msgid "Client Status"
+msgstr ""
+
+msgid "Client Group"
+msgstr ""
+
+msgid "Include Clients"
+msgstr ""
+
+msgid "Exclude Clients"
+msgstr ""
+
+msgid "Transaction Type"
+msgstr ""
+
+msgid "Types"
+msgstr ""
+
+msgid "Product Type"
+msgstr ""
+
+msgid "Product Group"
+msgstr ""
+
+msgid "Include Products"
+msgstr ""
+
+msgid "Exclude Products"
+msgstr ""
+
+msgid "Pay Stub"
+msgstr ""
+
+msgid "Include Employees with no data:"
+msgstr ""
+
+msgid "Pick a date"
+msgstr ""
+
+msgid "Display TimeSheet"
+msgstr ""
+
+msgid "Display Detailed TimeSheet"
+msgstr ""
+
+msgid "Employment Income (Box: 14):"
+msgstr ""
+
+msgid "Income Tax (Box: 22):"
+msgstr ""
+
+msgid "Employee CPP (Box: 16):"
+msgstr ""
+
+msgid "Employer CPP:"
+msgstr ""
+
+msgid "EI Insurable Earnings (Box: 24):"
+msgstr ""
+
+msgid "CPP Pensionable Earnings (Box: 26):"
+msgstr ""
+
+msgid "Employee EI (Box: 18):"
+msgstr ""
+
+msgid "Employer EI:"
+msgstr ""
+
+msgid "Union Dues (Box: 44):"
+msgstr ""
+
+msgid "RPP Contributions (Box: 20):"
+msgstr ""
+
+msgid "Pension Adjustment (Box: 52):"
+msgstr ""
+
+msgid "Other Information"
+msgstr ""
+
+msgid "Box"
+msgstr ""
+
+msgid "Pay Stub Account(s)"
+msgstr ""
+
+msgid "Display T4's"
+msgstr ""
+
+msgid "New Password:"
+msgstr ""
+
+msgid "New Password (confirm):"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "An email has been sent to <b>%1</b> with instructions on how to change your password."
+msgstr ""
+
+msgid "Email Address:"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "ISO Currency:"
+msgstr ""
+
+msgid "Base Currency:"
+msgstr ""
+
+msgid "(base all other conversion rates off this currency)"
+msgstr ""
+
+msgid "Conversion Rate:"
+msgstr ""
+
+msgid "Default Currency:"
+msgstr ""
+
+msgid "Auto Update:"
+msgstr ""
+
+msgid "(download rate from real-time data feed)"
+msgstr ""
+
+msgid "Rate Modify Percent:"
+msgstr ""
+
+msgid "Actual Rate:"
+msgstr ""
+
+msgid "Last Downloaded Date:"
+msgstr ""
+
+msgid "WARNING: There is no base currency set. Please create a base currency immediately."
+msgstr ""
+
+msgid "Auto Update"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Update Rates"
+msgstr ""
+
+msgid "WARNING: %1 was unable to set your time zone. Please contact your %1 administrator immediately."
+msgstr ""
+
+msgid "For more information please click here."
+msgstr ""
+
+msgid "WARNING: %1 maintenance jobs have not run in the last 48hours. Please contact your %1 administrator immediately."
+msgstr ""
+
+msgid "WARNING: %1 is currently in INSTALL MODE. Please go to your timetrex.ini.php file and set \"installer_enabled\" to \"FALSE\"."
+msgstr ""
+
+msgid "WARNING: %1 application version does not match database version. Please re-run the TimeTrex installer to complete the upgrade process."
+msgstr ""
+
+msgid "Punch"
+msgstr ""
+
+msgid "Punch Type"
+msgstr ""
+
+msgid "In/Out"
+msgstr ""
+
+msgid "Good"
+msgstr ""
+
+msgid "Please enter your site configuration information below. If you are unsure of the fields, we suggest that you use the default values."
+msgstr ""
+
+msgid "URL:"
+msgstr ""
+
+msgid "(No trailing slash)"
+msgstr ""
+
+msgid "Log Directory:"
+msgstr ""
+
+msgid "Storage Directory:"
+msgstr ""
+
+msgid "Cache Directory:"
+msgstr ""
+
+msgid "Enable %1 Update Notifications:"
+msgstr ""
+
+msgid "When this is enabled, administrators will receive update"
+msgstr ""
+
+msgid "notices when new versions, or updated %1<b>tax formulas/tables</b>%2 are available."
+msgstr ""
+
+msgid ""
+"These notices require your system to periodically send\n"
+"\t\t\t\t\t\tTimeTrex statistics about your installation in order to\n"
+"\t\t\t\t\t\thelp us understand usage patterns and improve the product."
+msgstr ""
+
+msgid "*HIGHLY RECOMMENDED"
+msgstr ""
+
+msgid "Make statistics anonymous:"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "<b>Congratulations!</b> You have successfully"
+msgstr ""
+
+msgid "upgraded"
+msgstr ""
+
+msgid "installed"
+msgstr ""
+
+msgid "We recommend that you visit our Online University or read our"
+msgstr ""
+
+msgid "to help you get started with %1."
+msgstr ""
+
+msgid "At anytime you can access either from the navigation menu, as shown below."
+msgstr ""
+
+msgid "In order for your %1 installation to function properly, please ensure all of the system check items listed below are marked as <b>OK</b>. If any are red, please take the necessary steps to fix them."
+msgstr ""
+
+msgid "For installation support, please join our community %1forums%2 or contact a TimeTrex support expert for %3Implementation Support Services%4."
+msgstr ""
+
+msgid "TimeTrex Version:"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Unable to Check Latest Version"
+msgstr ""
+
+msgid "Download v%1 Now"
+msgstr ""
+
+msgid "PHP Version:"
+msgstr ""
+
+msgid "Invalid"
+msgstr ""
+
+msgid "Unsupported"
+msgstr ""
+
+msgid "PHP Requirements"
+msgstr ""
+
+msgid "Database Engine:"
+msgstr ""
+
+msgid "Database Version:"
+msgstr ""
+
+msgid "BCMATH Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (BCMATH extension must be enabled)"
+msgstr ""
+
+msgid "GETTEXT Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (GETTEXT extension must be enabled)"
+msgstr ""
+
+msgid "CALENDAR Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (CALENDAR extension must be enabled)"
+msgstr ""
+
+msgid "SOAP Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (SOAP extension must be enabled)"
+msgstr ""
+
+msgid "GD Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (GD extension must be enabled)"
+msgstr ""
+
+msgid "MCRYPT Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (MCRYPT extension must be enabled)"
+msgstr ""
+
+msgid "SimpleXML Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (SimpleXML extension must be enabled)"
+msgstr ""
+
+msgid "MAIL Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (MAIL extension must be enabled)"
+msgstr ""
+
+msgid "PEAR Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed."
+msgstr ""
+
+msgid "(try running: \"<b>go-pear.bat</b>\")"
+msgstr ""
+
+msgid "(install the PEAR RPM or package from %1)"
+msgstr ""
+
+msgid "Safe Mode Turned Off:"
+msgstr ""
+
+msgid "Safe Mode is On. (Please disable it in php.ini)"
+msgstr ""
+
+msgid "Magic Quotes GPC Turned Off:"
+msgstr ""
+
+msgid "magic_quotes_gpc is On. (Please disable it in php.ini)"
+msgstr ""
+
+msgid "Memory Limit:"
+msgstr ""
+
+msgid "Warning: %1M (Set this to 128M or higher)"
+msgstr ""
+
+msgid "Other Requirements"
+msgstr ""
+
+msgid "Writable %1 Configuration File (timetrex.ini.php):"
+msgstr ""
+
+msgid "Warning: Not writable"
+msgstr ""
+
+msgid "Writable Cache Directory:"
+msgstr ""
+
+msgid "Writable Storage Directory:"
+msgstr ""
+
+msgid "Writable Log Directory:"
+msgstr ""
+
+msgid "Your %1 configuration file (timetrex.ini.php) is located at:<br> <b>%2</b>"
+msgstr ""
+
+msgid "Your PHP configuration file (php.ini) is located at:<br> <b>%1</b>, the include path is: \"<b>%2</b>\""
+msgstr ""
+
+msgid "Detailed"
+msgstr ""
+
+msgid "PHP Information"
+msgstr ""
+
+msgid "Re-Check"
+msgstr ""
+
+msgid ""
+"Please read through the following license and if you agree and accept it, click\n"
+"\t\t\t\t\t\t\t\tthe \"I Accept\" checkbox at the bottom."
+msgstr ""
+
+msgid "NO LICENSE FILE FOUND, Your installation appears to be corrupt!"
+msgstr ""
+
+msgid "I Accept"
+msgstr ""
+
+msgid "The installer has already been run, as a safety measure it has been disabled from running again. If you are absolutely sure you want to run it again, or upgrade your system, please go to your timetrex.ini.php file and set \"installer_enabled\" to \"TRUE\". The line should look like:"
+msgstr ""
+
+msgid "installer_enabled = TRUE"
+msgstr ""
+
+msgid "After this change has been made, you can click the \"Start\" button below to begin your installation. <b>After the installation is complete, you will want to change \"installer_enabled\" to \"FALSE\".</b>"
+msgstr ""
+
+msgid "For help, please visit"
+msgstr ""
+
+msgid "<b>Congratulations!</b> You have successfully upgraded %1 to <b>%2</b>."
+msgstr ""
+
+msgid "<b>NOTE:</b> In order to access new features you may need to re-apply the <b>Administrator</b> permission preset to each administrator employee in %1."
+msgstr ""
+
+msgid "Please enter the administrator user name and password."
+msgstr ""
+
+msgid "IMPORTANT"
+msgstr ""
+
+msgid "Please write this information down, as you will need it later to login to"
+msgstr ""
+
+msgid "Password (confirm):"
+msgstr ""
+
+msgid "First Name:"
+msgstr ""
+
+msgid "Last Name:"
+msgstr ""
+
+msgid "Email:"
+msgstr ""
+
+msgid "Please enter your company information below."
+msgstr ""
+
+msgid "Company Full Name:"
+msgstr ""
+
+msgid "Company Short Name:"
+msgstr ""
+
+msgid "Connection test to your database as a non-privileged user has <b>SUCCEEDED</b>! You may continue."
+msgstr ""
+
+msgid "Connection test to your database as a non-privileged user has <b>FAILED</b>! Please correct them and try again."
+msgstr ""
+
+msgid "Connection test to your database as a privileged user has <b>FAILED</b>! Please correct the user name/password and try again."
+msgstr ""
+
+msgid "Please enter your database configuration information below. If you are unsure, use the default values."
+msgstr ""
+
+msgid "Host Name:"
+msgstr ""
+
+msgid "Database Name:"
+msgstr ""
+
+msgid "User Name for"
+msgstr ""
+
+msgid "Password for"
+msgstr ""
+
+msgid "Privileged Database User Name / Password. This is only used to create the database schema if the above user does not have permissions to do so."
+msgstr ""
+
+msgid "Privileged Database User Name:"
+msgstr ""
+
+msgid "Privileged Database User Password:"
+msgstr ""
+
+msgid "<b>Note:</b> Your PHP configuration file (php.ini) is located at:<br> %1"
+msgstr ""
+
+msgid "Test Connection"
+msgstr ""
+
+msgid "Installing/Upgrading the TimeTrex database may take up to 10 minutes. Please do not stop the process in any way, including pressing STOP or BACK in your web browser, doing so may leave your database in an unusable state."
+msgstr ""
+
+msgid "Upgrading"
+msgstr ""
+
+msgid "Initializing"
+msgstr ""
+
+msgid "database, please wait..."
+msgstr ""
+
+msgid "Posted By / Date"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Please submit at least one message describing the reason for this %1."
+msgstr ""
+
+msgid "New Message"
+msgstr ""
+
+msgid "Recipients Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Requires Acknowledgment:"
+msgstr ""
+
+msgid "Submit Message"
+msgstr ""
+
+msgid "<b>NOTICE:</b> This messages requires your acknowledgment."
+msgstr ""
+
+msgid "This message was acknowledged by <b>%1</b> on"
+msgstr ""
+
+msgid "This message is pending acknowledgment."
+msgstr ""
+
+msgid "Message Acknowledgment"
+msgstr ""
+
+msgid "By clicking the checkbox, I <b>%1</b> hereby acknowledge<br> that I have read and understand this message in its entirety on"
+msgstr ""
+
+msgid "Acknowledge Message"
+msgstr ""
+
+msgid "<b>NOTICE:</b> Messages marked in red require your immediate attention."
+msgstr ""
+
+msgid "Folder:"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Requires Ack"
+msgstr ""
+
+msgid "Ack Date"
+msgstr ""
+
+msgid "Revision"
+msgstr ""
+
+msgid "Published By"
+msgstr ""
+
+msgid "Published Date"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Upload New Document"
+msgstr ""
+
+msgid "Attach Existing Document"
+msgstr ""
+
+msgid "Document:"
+msgstr ""
+
+msgid "Revision:"
+msgstr ""
+
+msgid "File:"
+msgstr ""
+
+msgid "Add Revision"
+msgstr ""
+
+msgid "Change Log:"
+msgstr ""
+
+msgid "Revisions"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Change Log"
+msgstr ""
+
+msgid "Un-Attach"
+msgstr ""
+
+msgid "View TimeSheet"
+msgstr ""
+
+msgid "Decline"
+msgstr ""
+
+msgid "Pass"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Are you sure you want to recalculate the timesheets of every employee?"
+msgstr ""
+
+msgid "Are you sure you want to recalculate the pay stub of this employee?"
+msgstr ""
+
+msgid "Dept:"
+msgstr ""
+
+msgid "Add:"
+msgstr ""
+
+msgid "Absence"
+msgstr ""
+
+msgid "NOTICE:"
+msgstr ""
+
+msgid "This pay period is currently"
+msgstr ""
+
+msgid "closed"
+msgstr ""
+
+msgid "locked"
+msgstr ""
+
+msgid "modifications are not permitted."
+msgstr ""
+
+msgid "This pay period is currently in the post adjustment state."
+msgstr ""
+
+msgid "Print Timesheet"
+msgstr ""
+
+msgid "Print Detailed Timesheet"
+msgstr ""
+
+msgid "Accumulated Time"
+msgstr ""
+
+msgid "Premium"
+msgstr ""
+
+msgid "to"
+msgstr ""
+
+msgid "NONE"
+msgstr ""
+
+msgid "Employee is not assigned to a Pay Period Schedule."
+msgstr ""
+
+msgid "Previous Pay Period requires verification!"
+msgstr ""
+
+msgid "Verification"
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "By pressing OK, I hereby certify that my timesheet for the pay period of"
+msgstr ""
+
+msgid "is accurate and correct."
+msgstr ""
+
+msgid "Not Verified"
+msgstr ""
+
+msgid "Exception Legend"
+msgstr ""
+
+msgid "Paid Time"
+msgstr ""
+
+msgid "Paid Absences"
+msgstr ""
+
+msgid "Docked Time"
+msgstr ""
+
+msgid "Docked Absences"
+msgstr ""
+
+msgid "is currently undergoing maintenance. We're sorry for any inconvenience this may cause. Please try back later."
+msgstr ""
+
+msgid "is unable to connect to its database, please make sure that the database has been started and is running."
+msgstr ""
+
+msgid "experienced a general error, please contact technical support."
+msgstr ""
+
+msgid "Deduction/Addition Time"
+msgstr ""
+
+msgid "Break Time"
+msgstr ""
+
+msgid "Auto-Detect Breaks By:"
+msgstr ""
+
+msgid "Start Window:"
+msgstr ""
+
+msgid "Window Length:"
+msgstr ""
+
+msgid "Minimum Punch Time:"
+msgstr ""
+
+msgid "Maximum Punch Time:"
+msgstr ""
+
+msgid "Include Any Punched Time for Break:"
+msgstr ""
+
+msgid "Round Type:"
+msgstr ""
+
+msgid "Interval:"
+msgstr ""
+
+msgid "Grace Period:"
+msgstr ""
+
+msgid "Strict Schedule:"
+msgstr ""
+
+msgid "Employee can't work more than scheduled time"
+msgstr ""
+
+msgid "Meal Time"
+msgstr ""
+
+msgid "Auto-Detect Meals By:"
+msgstr ""
+
+msgid "After First Punch"
+msgstr ""
+
+msgid "Include Any Punched Time for Lunch:"
+msgstr ""
+
+msgid "Interval"
+msgstr ""
+
+msgid "Wage Group:"
+msgstr ""
+
+msgid "Accrual Rate:"
+msgstr ""
+
+msgid "Break Policies:"
+msgstr ""
+
+msgid "Undertime Absence Policy:"
+msgstr ""
+
+msgid "Start / Stop Window:"
+msgstr ""
+
+msgid "Display Balance on Pay Stub:"
+msgstr ""
+
+msgid "Frequency In Which To Apply Time to Employee Records"
+msgstr ""
+
+msgid "Month:"
+msgstr ""
+
+msgid "Day Of Month:"
+msgstr ""
+
+msgid "Day Of Week:"
+msgstr ""
+
+msgid "After Minimum Employed Days:"
+msgstr ""
+
+msgid "Calculate Accruals Immediately For The Following Dates"
+msgstr ""
+
+msgid "Enable:"
+msgstr ""
+
+msgid "Milestone Rollover Based On"
+msgstr ""
+
+msgid "Employee's Hire Date:"
+msgstr ""
+
+msgid "Length Of Service Milestones"
+msgstr ""
+
+msgid "Length Of Service"
+msgstr ""
+
+msgid "Accrual Rate"
+msgstr ""
+
+msgid "Accrual Total Minimum"
+msgstr ""
+
+msgid "Accrual Total Maximum"
+msgstr ""
+
+msgid "After:"
+msgstr ""
+
+msgid "Add Milestone"
+msgstr ""
+
+msgid "Date/Time Criteria"
+msgstr ""
+
+msgid "Start Time"
+msgstr ""
+
+msgid "(Leave blank for no start time)"
+msgstr ""
+
+msgid "End Time"
+msgstr ""
+
+msgid "(Leave blank for no end time)"
+msgstr ""
+
+msgid "Include Partial Punches"
+msgstr ""
+
+msgid "Active After Daily (Regular) Hours"
+msgstr ""
+
+msgid "Active After Weekly (Regular) Hours"
+msgstr ""
+
+msgid "Effective Days"
+msgstr ""
+
+msgid "Differential Criteria"
+msgstr ""
+
+msgid "Exclude Default Branch"
+msgstr ""
+
+msgid "Exclude Default Department"
+msgstr ""
+
+msgid "UnSelected Job Groups"
+msgstr ""
+
+msgid "Selected Job Groups"
+msgstr ""
+
+msgid "Job Groups Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "UnSelected Jobs"
+msgstr ""
+
+msgid "Selected Jobs"
+msgstr ""
+
+msgid "Jobs Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "UnSelected Task Groups"
+msgstr ""
+
+msgid "Selected Task Groups"
+msgstr ""
+
+msgid "Task Groups Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Tasks Currently Selected, Click the arrow to modify."
+msgstr ""
+
+msgid "Meal/Break Criteria"
+msgstr ""
+
+msgid "Active After Daily Hours"
+msgstr ""
+
+msgid "Maximum Time Without A Break"
+msgstr ""
+
+msgid "Minimum Time Recognized As Break"
+msgstr ""
+
+msgid "Hours/Pay Criteria"
+msgstr ""
+
+msgid "Minimum Time"
+msgstr ""
+
+msgid "(Use 0 for no minimum)"
+msgstr ""
+
+msgid "Maximum Time"
+msgstr ""
+
+msgid "(Use 0 for no maximum)"
+msgstr ""
+
+msgid "Include Meal Policy in Calculation"
+msgstr ""
+
+msgid "Include Break Policy in Calculation"
+msgstr ""
+
+msgid "Pay Type"
+msgstr ""
+
+msgid "Hourly Rate"
+msgstr ""
+
+msgid "1.5 for time and a half"
+msgstr ""
+
+msgid "0.75 for 75 cents/hr"
+msgstr ""
+
+msgid "10.00/hr"
+msgstr ""
+
+msgid "Pay Stub Account"
+msgstr ""
+
+msgid "Accrual Policy"
+msgstr ""
+
+msgid "Special Day:"
+msgstr ""
+
+msgid "Week Interval:"
+msgstr ""
+
+msgid "Day of the Week:"
+msgstr ""
+
+msgid "Pivot Day Direction:"
+msgstr ""
+
+msgid "Day of the Month:"
+msgstr ""
+
+msgid "Holiday"
+msgstr ""
+
+msgid "Default Schedule Status:"
+msgstr ""
+
+msgid "Holiday Eligibility"
+msgstr ""
+
+msgid "Minimum Employed Days:"
+msgstr ""
+
+msgid "Employee Must Work at Least:"
+msgstr ""
+
+msgid "of the:"
+msgstr ""
+
+msgid "days prior to the holiday"
+msgstr ""
+
+msgid "days following the holiday"
+msgstr ""
+
+msgid "Holiday Time Calculation"
+msgstr ""
+
+msgid "Days to Average Time over:"
+msgstr ""
+
+msgid "Worked Days Only:"
+msgstr ""
+
+msgid "Maximum Time:"
+msgstr ""
+
+msgid "Always Apply Over Time Policy:"
+msgstr ""
+
+msgid "(Even if they are not eligible for holiday pay)"
+msgstr ""
+
+msgid "Include Over Time in Average:"
+msgstr ""
+
+msgid "Include Paid Absence Time in Average:"
+msgstr ""
+
+msgid "Rounding Policy:"
+msgstr ""
+
+msgid "Holiday Time:"
+msgstr ""
+
+msgid "Recurring Holidays:"
+msgstr ""
+
+msgid "Meal Policy"
+msgstr ""
+
+msgid "Absence Policy"
+msgstr ""
+
+msgid "Window"
+msgstr ""
+
+msgid "Active After"
+msgstr ""
+
+msgid "Overtime Policies:"
+msgstr ""
+
+msgid "Rounding Policies:"
+msgstr ""
+
+msgid "Meal Policies:"
+msgstr ""
+
+msgid "Accrual Policies:"
+msgstr ""
+
+msgid "Premium Policies:"
+msgstr ""
+
+msgid "Holiday Policies:"
+msgstr ""
+
+msgid "Exception Policy:"
+msgstr ""
+
+msgid "Next Date"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Severity"
+msgstr ""
+
+msgid "Demerits"
+msgstr ""
+
+msgid "Grace"
+msgstr ""
+
+msgid "Watch Window"
+msgstr ""
+
+msgid "Email Notification"
+msgstr ""
+
+msgid "Holidays"
+msgstr ""
+
+msgid "Criteria"
+msgstr ""
+
+msgid "Matching Employees"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Federal Claim Amount:"
+msgstr ""
+
+msgid "Federal Tax Exempt:"
+msgstr ""
+
+msgid "Provincial Claim Amount:"
+msgstr ""
+
+msgid "Provincial Tax Exempt:"
+msgstr ""
+
+msgid "Additional Deduction Amount:"
+msgstr ""
+
+msgid "WCB Rate:"
+msgstr ""
+
+msgid "Vacation Rate:"
+msgstr ""
+
+msgid "Always Release Vacation:"
+msgstr ""
+
+msgid "EI Exempt:"
+msgstr ""
+
+msgid "CPP Exempt:"
+msgstr ""
+
+msgid "Federal Filing Status:"
+msgstr ""
+
+msgid "Federal Allowance:"
+msgstr ""
+
+msgid "Federal Additional Deduction:"
+msgstr ""
+
+msgid "State Filing Status:"
+msgstr ""
+
+msgid "State Allowance:"
+msgstr ""
+
+msgid "State Additional Deduction:"
+msgstr ""
+
+msgid "State UI Rate:"
+msgstr ""
+
+msgid "State UI Wage Base:"
+msgstr ""
+
+msgid "State Tax Exempt:"
+msgstr ""
+
+msgid "Social Security (FICA) Exempt:"
+msgstr ""
+
+msgid "UnEmployment Insurance (FUTA) Exempt:"
+msgstr ""
+
+msgid "Medicare Exempt:"
+msgstr ""
+
+msgid " In order to improve your <b>%1</b> experience, please define your personal preferences."
+msgstr ""
+
+msgid "Language:"
+msgstr ""
+
+msgid "Date Format:"
+msgstr ""
+
+msgid "Time Format:"
+msgstr ""
+
+msgid "Time Units:"
+msgstr ""
+
+msgid "Time Zone:"
+msgstr ""
+
+msgid "Start Weeks on:"
+msgstr ""
+
+msgid "Rows per Page:"
+msgstr ""
+
+msgid "Email Notifications"
+msgstr ""
+
+msgid "Messages:"
+msgstr ""
+
+msgid "Send Notifications to Home Email:"
+msgstr ""
+
+msgid "Add Deductions:"
+msgstr ""
+
+msgid " Welcome to <b>%1</b> since this is your first time logging in, we need you to fill out the following information."
+msgstr ""
+
+msgid "PS Amendment"
+msgstr ""
+
+msgid "Prefs"
+msgstr ""
+
+msgid "ROE"
+msgstr ""
+
+msgid "Employee Identification"
+msgstr ""
+
+msgid "Permission Group:"
+msgstr ""
+
+msgid "Pay Period Schedule:"
+msgstr ""
+
+msgid "Policy Group:"
+msgstr ""
+
+msgid "Employee Number:"
+msgstr ""
+
+msgid "Next available:"
+msgstr ""
+
+msgid "Phone Password:"
+msgstr ""
+
+msgid "Phone Password (confirm):"
+msgstr ""
+
+msgid "iButton ID:"
+msgstr ""
+
+msgid "Hire Date:"
+msgstr ""
+
+msgid "Hierarchies"
+msgstr ""
+
+msgid "Middle Name:"
+msgstr ""
+
+msgid "Second Surname:"
+msgstr ""
+
+msgid "Sex:"
+msgstr ""
+
+msgid "Home Address (Line 1):"
+msgstr ""
+
+msgid "Home Address (Line 2):"
+msgstr ""
+
+msgid "Work Phone:"
+msgstr ""
+
+msgid "Ext:"
+msgstr ""
+
+msgid "Home Phone:"
+msgstr ""
+
+msgid "Mobile Phone:"
+msgstr ""
+
+msgid "Work Email:"
+msgstr ""
+
+msgid "Home Email:"
+msgstr ""
+
+msgid "SIN / SSN:"
+msgstr ""
+
+msgid "Employee Preferences"
+msgstr ""
+
+msgid "Employee Tax / Deductions"
+msgstr ""
+
+msgid "Deductions:"
+msgstr ""
+
+msgid "Wage:"
+msgstr ""
+
+msgid "Average Time / Week:"
+msgstr ""
+
+msgid "(ie: 40 hours / week)"
+msgstr ""
+
+msgid "Hourly Rate:"
+msgstr ""
+
+msgid "Labor Burden Percent:"
+msgstr ""
+
+msgid "% (ie: 25% burden)"
+msgstr ""
+
+msgid "Calculate"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Failed:"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "Success:"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Current Password:"
+msgstr ""
+
+msgid "WARNING"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "To Sign-In/Out over the telephone dial <b>1-800-714-5153</b>, press \"<b>8</b>\" at the menu and follow the prompts."
+msgstr ""
+
+msgid "Current Phone Password:"
+msgstr ""
+
+msgid "New Phone Password:"
+msgstr ""
+
+msgid "New Phone Password (confirm):"
+msgstr ""
+
+msgid "Policies highlighted in yellow may not be active yet because they are not assigned to a"
+msgstr ""
+
+msgid "Policy Group"
+msgstr ""
+
+msgid "Client Name:"
+msgstr ""
+
+msgid "Sales Contact:"
+msgstr ""
+
+msgid "Support Contact:"
+msgstr ""
+
+msgid "Website:"
+msgstr ""
+
+msgid "Add Job"
+msgstr ""
+
+msgid "Default:"
+msgstr ""
+
+msgid "Address (Line 3):"
+msgstr ""
+
+msgid "Client Portal"
+msgstr ""
+
+msgid "First"
+msgstr ""
+
+msgid "Last"
+msgstr ""
+
+msgid "Add Company"
+msgstr ""
+
+msgid "Credit Card Number:"
+msgstr ""
+
+msgid "Expiry Date:"
+msgstr ""
+
+msgid "Credit Card Security Code (CSC):"
+msgstr ""
+
+msgid "Card Holder Name:"
+msgstr ""
+
+msgid "Card Issuing Banks Phone Number:"
+msgstr ""
+
+msgid "Bank Type:"
+msgstr ""
+
+msgid "Recent Activity Summary for %1"
+msgstr ""
+
+msgid "Current Exceptions"
+msgstr ""
+
+msgid "Recent Requests"
+msgstr ""
+
+msgid "No Recent Requests"
+msgstr ""
+
+msgid "Recent Messages"
+msgstr ""
+
+msgid "No Recent Messages"
+msgstr ""
+
+msgid "No Pending Requests"
+msgstr ""
+
+msgid "Default Policy:"
+msgstr ""
+
+msgid "Enable Time Bank:"
+msgstr ""
+
+msgid "Over Time Shift Default Attribute:"
+msgstr ""
+
+msgid "Under Time Shift Default Attribute:"
+msgstr ""
+
+msgid "Lunch Start"
+msgstr ""
+
+msgid "Lunch End"
+msgstr ""
+
+msgid "Strict:"
+msgstr ""
+
+msgid "Round Value:"
+msgstr ""
+
+msgid "Form data has been saved!"
+msgstr ""

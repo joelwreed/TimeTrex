@@ -1,0 +1,8 @@
+da_DK|97|Danish <da@li.org>
+de_DE|89|German <de@li.org>
+en_US|95|LANGUAGE <LL@li.org>
+es_ES|97|Spanish <es@li.org>
+pt_PT|79|Portuguese <pt@li.org>
+it_IT|94|Italian <it@li.org>
+.svn|0|
+fr_FR|90|French <fr@li.org>

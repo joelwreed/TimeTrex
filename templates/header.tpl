@@ -13,12 +13,9 @@ function help_window(group) {
 {/literal}
 </SCRIPT>
 
-<SCRIPT language=JavaScript src="{$BASE_URL}menu/milonic_src.js" type=text/javascript></SCRIPT>
-<script language=JavaScript>
-if(ns4)_d.write("<scr"+"ipt language=JavaScript src={$BASE_URL}menu/mmenuns4.js><\/scr"+"ipt>");
-else _d.write("<scr"+"ipt language=JavaScript src={$BASE_URL}menu/mmenudom.js><\/scr"+"ipt>");
-</script>
-<SCRIPT language=JavaScript src="{$BASE_URL}menu.js.php" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="{$BASE_URL}jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="{$BASE_URL}menu/hoverIntent.js"></script>
+<script type="text/javascript" src="{$BASE_URL}menu/superfish.js"></script>
 
 </head>
 <body id="body" onLoad="{*onload_quick_help();*}handleMenuOverlapLogo();onload_column_expand();{$body_onload};firstElementFocus();{if (!isset($newMailPopUp) AND $unread_messages > 0)}newMailPopUp('{$BASE_URL}');{/if}">

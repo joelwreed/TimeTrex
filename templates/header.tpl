@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="{$BASE_URL}{$css_file}" type="text/css" />
+<link rel="stylesheet" type="text/css" media="screen" href="{$BASE_URL}menu/superfish.css" />
 
 <title>{$APPLICATION_NAME}{if $title != ''} - {$title}{/if}</title>
 <SCRIPT language=JavaScript src="{$BASE_URL}global.js.php" type=text/javascript></SCRIPT>
@@ -46,7 +47,7 @@ function help_window(group) {
 		</span>
 		<div id="rowHeaderContainer">
 		<div id="rowHeaderText">&nbsp;{$current_company->getName()} - {$current_user->getFullName()}</div>
-		<div id="rowHeaderMenu">M</script>
+		{include file="menu.tpl"}
 		</div>
 	</div>
 </div>

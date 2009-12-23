@@ -547,6 +547,19 @@ class UserFactory extends Factory {
 	function checkPassword($password) {
 		global $config_vars;
 
+    include_once('Net/LDAP2.php');
+    if ( class_exists('Net_LDAP2') ) {
+
+      $binddn = $this->data['user_name'] . "," . $config_vars['ldap']['basedn'];
+      syslog(LOG_ERR, "Binddn is " . $binddn);
+      $lcfg = array('host'   => $config_vars['ldap']['host'],
+                    'port'   => $config_vars['ldap']['port'],
+                    'binddn' => $binddn,
+                    'bindpw' => $password);
+      $ldap = Net_LDAP2::connect($lcfg);
+      syslog(LOG_ERR, "Type is " . $ldap->gettype());
+    }
+
 		$password = $this->encryptPassword( trim(strtolower($password)) );
 
 		if ( $password == $this->getPassword() ) {

@@ -19,7 +19,7 @@ function help_window(group) {
 <script type="text/javascript" src="{$BASE_URL}menu/superfish.js"></script>
 
 </head>
-<body id="body" onLoad="{*onload_quick_help();*}handleMenuOverlapLogo();onload_column_expand();{$body_onload};firstElementFocus();{if (!isset($newMailPopUp) AND $unread_messages > 0)}newMailPopUp('{$BASE_URL}');{/if}">
+<body id="body" onLoad="{*onload_quick_help();*};onload_column_expand();{$body_onload};firstElementFocus();{if (!isset($newMailPopUp) AND $unread_messages > 0)}newMailPopUp('{$BASE_URL}');{/if}">
 
 {if $enable_ajax == TRUE}
 <script type='text/javascript' src='{$BASE_URL}ajax_server.php?client=all&stub=AJAX_Server'></script>

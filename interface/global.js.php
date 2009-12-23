@@ -643,30 +643,6 @@ function showHelpEntry(objectID) {
 	}
 }
 
-function handleMenuOverlapLogo() {
-	//Find the last image in the menu
-	var imgs = document.getElementsByTagName('img');
-	for (var img=0; img < imgs.length; img++) {
-		if ( imgs[img].src.indexOf('tab_menu.gif') >= 0 ) {
-			image_id = imgs[img].id;
-			image_width = imgs[img].width;
-		}
-	}
-
-	logo_img = document.getElementById('header_logo');
-
-	menu_x_pos = findXPosition( document.getElementById( image_id ) )+26;
-	screen_width = getWindowSize('width');
-	//alert('Scr Width: '+ screen_width +' Pos: '+ menu_x_pos +' Img Width: '+ logo_img.width);
-
-	if ( (screen_width - menu_x_pos) < (logo_img.width+7) ) {
-		logo_img.style.visibility = 'hidden';
-	} else {
-		logo_img.style.visibility = '';
-	}
-	return true;
-}
-
 function findXPosition(obj) {
     var curleft = 0;
     if ( obj.offsetParent ) {

@@ -3315,6 +3315,12 @@ msgstr ""
 msgid "Warning: Not Installed. (SOAP extension must be enabled)"
 msgstr ""
 
+msgid "LDAP Enabled:"
+msgstr ""
+
+msgid "Warning: Not Installed. (LDAP authentication disabled)"
+msgstr ""
+
 msgid "GD Enabled:"
 msgstr ""
 

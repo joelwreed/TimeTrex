@@ -42,6 +42,7 @@
 /**
  * @package Module_Install
  */
+
 class Install {
 
 	protected $temp_db = NULL;
@@ -837,6 +838,16 @@ class Install {
 		return 1;
 	}
 
+  function checkLDAP() {
+    include_once('Net/LDAP2.php');
+
+    if ( class_exists('Net_LDAP2') ) {
+			return 0;
+		}
+
+    return x;
+  }
+
 	function checkGD() {
 		if ( function_exists('imagefontheight') ) {
 			return 0;
@@ -973,6 +984,7 @@ class Install {
 		$retarr[$this->checkBCMATH()]++;
 		$retarr[$this->checkCALENDAR()]++;
 		$retarr[$this->checkGETTEXT()]++;
+		$retarr[$this->checkLDAP()]++;
 		$retarr[$this->checkGD()]++;
 		$retarr[$this->checkSimpleXML()]++;
 		$retarr[$this->checkMAIL()]++;
@@ -1036,6 +1048,10 @@ class Install {
 
 		if ( $fail_all == TRUE OR $this->checkGETTEXT() != 0 ) {
 			$retarr[] = 'GETTEXT';
+		}
+
+		if ( $fail_all == TRUE OR $this->checkLDAP() != 0 ) {
+			$retarr[] = 'LDAP';
 		}
 
 		if ( $fail_all == TRUE OR $this->checkGD() != 0 ) {

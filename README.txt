@@ -5,6 +5,7 @@ INSTALLATION INSTRUCTIONS
 1. Confirm that your system meets the TimeTrex minimum requirements.
 	- PHP v5.x or greater
 	- MySQL v4.1.3+ or PostgreSQL v8.0+
+  - PHP LDAP Extension if you wish to authenticate via LDAP
 
 2. Locate your webroot directory on your web server. This is the directory
 on your web server where publicly accessilbe files are made available by your

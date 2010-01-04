@@ -548,16 +548,21 @@ class UserFactory extends Factory {
 		global $config_vars;
 
     include_once('Net/LDAP2.php');
+
     if ( class_exists('Net_LDAP2') ) {
 
-      $binddn = $this->data['user_name'] . "," . $config_vars['ldap']['basedn'];
-      syslog(LOG_ERR, "Binddn is " . $binddn);
+      $binddn = sprintf($config_vars['ldap']['authdn'], $this->data['user_name']);
+      Debug::text("LDAP binddn is " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
+
       $lcfg = array('host'   => $config_vars['ldap']['host'],
                     'port'   => $config_vars['ldap']['port'],
                     'binddn' => $binddn,
                     'bindpw' => $password);
       $ldap = Net_LDAP2::connect($lcfg);
-      syslog(LOG_ERR, "Type is " . $ldap->gettype());
+      if (!PEAR::isError($ldap))
+        return TRUE;
+
+      Debug::text("LDAP Authentication Failed. Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
     }
 
 		$password = $this->encryptPassword( trim(strtolower($password)) );

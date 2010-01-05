@@ -565,11 +565,7 @@ class UserFactory extends Factory {
       Debug::text("LDAP Authentication Failed. Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
     }
 
-    Debug::text("Falling thru 1: $password", __FILE__, __LINE__, __METHOD__, 10);
     $password = $this->encryptPassword( trim(strtolower($password)) );
-    Debug::text("Falling thru 2: $password", __FILE__, __LINE__, __METHOD__, 10);
-    Debug::text("Falling thru 3: ". $this->getPassword(), __FILE__, __LINE__, __METHOD__, 10);
-
 		if ( $password == $this->getPassword() ) {
 			return TRUE;
 		} elseif ( isset($config_vars['other']['override_password_prefix'])

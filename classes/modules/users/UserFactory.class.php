@@ -547,22 +547,26 @@ class UserFactory extends Factory {
 	function checkPassword($password) {
 		global $config_vars;
 
+		// is LDAP available?
 		include_once('Net/LDAP2.php');
-
 		if ( class_exists('Net_LDAP2') ) {
 
-			$binddn = sprintf($config_vars['ldap']['authdn'], $this->data['user_name']);
-			Debug::text("LDAP binddn is " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
+			// is LDAP configured?
+			$authdn = $config_vars['ldap']['authdn'];
+			if ($authdn != '') {
+				$binddn = sprintf($authdn, $this->data['user_name']);
+				Debug::text("LDAP binddn is " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
 
-			$lcfg = array('host'	 => $config_vars['ldap']['host'],
-										'port'	 => $config_vars['ldap']['port'],
-										'binddn' => $binddn,
-										'bindpw' => $password);
-			$ldap = Net_LDAP2::connect($lcfg);
-			if (!PEAR::isError($ldap))
-				return TRUE;
+				$lcfg = array('host'	 => $config_vars['ldap']['host'],
+											'port'	 => $config_vars['ldap']['port'],
+											'binddn' => $binddn,
+											'bindpw' => $password);
+				$ldap = Net_LDAP2::connect($lcfg);
+				if (!PEAR::isError($ldap))
+					return TRUE;
 
-			Debug::text("LDAP Authentication Failed. Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+				Debug::text("LDAP Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+			}
 		}
 
 		$password = $this->encryptPassword( trim(strtolower($password)) );

@@ -67,6 +67,11 @@ buffer_output = TRUE
 enable_log = FALSE
 verbosity = 10
 
+; sample ldap authentication configuration
+;[ldap]
+;host = 127.0.0.1
+;port = 389
+;authdn = "uid=%s,ou=people,dc=example,dc=edu"
 
 
 [other]

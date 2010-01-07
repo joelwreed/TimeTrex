@@ -553,48 +553,58 @@ class UserFactory extends Factory {
 
 			// is LDAP configured for authentication?
 			$binddn = $config_vars['ldap']['binddn'];
-      if ($binddn != '') {
+			if ($binddn != '') {
 
-        // are we doing bind auth or search based auth?
-        $bindpw = $config_vars['ldap']['bindpw'];
-        $authtype = ($bindpw == '') ? "bind" : "search";
-        
-        // if bindauth, setup real binddn and bindpw with user login creds
-        if ($authtype == "bind") {
-          $binddn = sprintf($binddn, $this->data['user_name']);
-          $bindpw = $password;
-        }
+				// are we doing bind auth or search based auth?
+				$bindpw = $config_vars['ldap']['bindpw'];
+				$authtype = ($bindpw == '') ? "bind" : "search";
+				
+				// if bindauth, setup real binddn and bindpw with user login creds
+				if ($authtype == "bind") {
+					$binddn = sprintf($binddn, $this->data['user_name']);
+					$bindpw = $password;
+				}
 
-        // connect to ldap server
-        $lcfg = array('host'	 => $config_vars['ldap']['host'],
-                      'port'	 => $config_vars['ldap']['port'],
-                      'binddn' => $binddn, 'bindpw' => $bindpw);
-        Debug::text("LDAP: Binding with " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
-        $ldap = Net_LDAP2::connect($lcfg);
+				// connect to ldap server
+				$lcfg = array('host'	 => $config_vars['ldap']['host'],
+											'port'	 => $config_vars['ldap']['port'],
+											'binddn' => $binddn, 'bindpw' => $bindpw);
+				Debug::text("LDAP: Binding with " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
+				$ldap = Net_LDAP2::connect($lcfg);
 
-        if (PEAR::isError($ldap)) {
-          Debug::text("LDAP: Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
-          return FALSE;
-        }
+				if (PEAR::isError($ldap)) {
+					Debug::text("LDAP: Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+					return FALSE;
+				}
 
-        if ($authtype == "bind") return TRUE;
+				// bind auth & bind succeeded = good user creds
+				if ($authtype == "bind") return TRUE;
 
-        $filter = sprintf($config_vars['ldap']['filter'], $this->data['user_name']);
-        Debug::text("LDAP: Searching with " . $filter, __FILE__, __LINE__, __METHOD__, 10);
-        $searchbase = $config_vars['ldap']['searchbase'];
-        $options = array('scope' => 'sub', 'attributes' => array('userPassword'));
+				$filter = sprintf($config_vars['ldap']['filter'], $this->data['user_name']);
+				Debug::text("LDAP: Searching with " . $filter, __FILE__, __LINE__, __METHOD__, 10);
+				$searchbase = $config_vars['ldap']['searchbase'];
+				$options = array('scope' => 'sub', 'attributes' => array('userPassword'));
 
-        // Perform the search!
-        $search = $ldap->search($searchbase, $filter, $options);
+				// Perform the search!
+				$search = $ldap->search($searchbase, $filter, $options);
 
-        // Test for search errors:
-        if (PEAR::isError($search)) {
-          Debug::text("LDAP: Search Error: " . $search->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
-          return FALSE;
-        }
+				// Test for search errors:
+				if (PEAR::isError($search)) {
+					Debug::text("LDAP: Search Error: " . $search->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+					return FALSE;
+				}
 
-      } // ldap configured
-    } // Net_LDAP2 available
+				if ($search->count() == 0) {
+					Debug::text("LDAP: Search found no entries. ", __FILE__, __LINE__, __METHOD__, 10);
+					return FALSE;
+				}
+
+				// get first result
+				$entry = $search->shiftEntry();
+				$ldapPwd = $entry->getValue('userPassword', 'single');
+				return ($ldapPwd == $password);
+			} // ldap configured
+		} // Net_LDAP2 available
 
 		$password = $this->encryptPassword( trim(strtolower($password)) );
 		if ( $password == $this->getPassword() ) {

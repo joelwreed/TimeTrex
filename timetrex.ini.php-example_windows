@@ -67,8 +67,13 @@ verbosity = 10
 ;[ldap]
 ;host = 127.0.0.1
 ;port = 389
-;authdn = "uid=%s,ou=people,dc=example,dc=edu"
-;only_auth = TRUE
+; For bind based authentication, just provide a binddn template:
+;binddn = "uid=%s,ou=people,dc=example,dc=edu"
+; For search based authentication, provide the following:
+;binddn = "cn=admin,dc=example,dc=edu"
+;bindpw = "password"
+;filter = "(mail=%s)"
+;searchbase = "ou=people,dc=example,dc=edu"
 
 
 [other]

@@ -168,20 +168,6 @@
 
 							<tr>
 								<td class="cellLeftEditTable">
-									{t}LDAP Enabled:{/t}
-								</td>
-								<td class="cellRightEditTable">
-									{if $install_obj->checkLDAP() == 0}
-										<span class="">{t}OK{/t}
-									{elseif $install_obj->checkLDAP() == 1}
-										<span class="tblDataWarning">{t}Warning: Not Installed. (LDAP authentication disabled){/t}
-									{/if}
-									</span>
-								</td>
-							</tr>
-
-							<tr>
-								<td class="cellLeftEditTable">
 									{t}GD Enabled:{/t}
 								</td>
 								<td class="cellRightEditTable">

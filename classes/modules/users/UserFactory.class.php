@@ -551,28 +551,53 @@ class UserFactory extends Factory {
 		include_once('Net/LDAP2.php');
 		if ( class_exists('Net_LDAP2') ) {
 
-			// is LDAP configured?
-			$authdn = $config_vars['ldap']['authdn'];
-			if ($authdn != '') {
-				$binddn = sprintf($authdn, $this->data['user_name']);
-				Debug::text("LDAP binddn is " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
+			// is LDAP configured for authentication?
+			$binddn = $config_vars['ldap']['binddn'];
+      if ($binddn != '') {
 
-				$lcfg = array('host'	 => $config_vars['ldap']['host'],
-											'port'	 => $config_vars['ldap']['port'],
-											'binddn' => $binddn,
-											'bindpw' => $password);
-				$ldap = Net_LDAP2::connect($lcfg);
-				if (!PEAR::isError($ldap))
-					return TRUE;
+        // are we doing bind auth or search based auth?
+        $bindpw = $config_vars['ldap']['bindpw'];
+        $authtype = ($bindpw == '')? "bind" : "search";
 
-				Debug::text("LDAP Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+        // if bindauth, setup real binddn and bindpw with user login creds
+        if ($authtype == "bind") {
+          $binddn = sprintf($binddn, escape_dn_value($this->data['user_name']));
+          $bindpw = $password;
+        }
 
-				// if no fallthru permitted, and ldap auth failed then deny access
-				if ($config_vars['ldap']['only_auth'])
-					return FALSE;
-			}
-		}
+        // connect to ldap server
+        $lcfg = array('host'	 => $config_vars['ldap']['host'],
+                      'port'	 => $config_vars['ldap']['port'],
+                      'binddn' => $binddn, 'bindpw' => $bindpw);
+        Debug::text("LDAP: Binding with " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
+        $ldap = Net_LDAP2::connect($lcfg);
 
+        $fallback = $config_vars['ldap']['fallback'];
+        if (PEAR::isError($ldap)) {
+          Debug::text("LDAP: Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+          if ($fallback) goto fallback;
+        }
+
+        if ($authtype == "bind") return TRUE;
+
+        Debug::text("LDAP: binding with " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
+        $filter = sprintf($config_vars['ldap']['filter'], $this->data['user_name']);
+        $searchbase = $config_vars['ldap']['searchbase'];
+        $options = array('scope' => 'sub', 'attributes' => array('userPassword'));
+
+        // Perform the search!
+        $search = $ldap->search($searchbase, $filter, $options);
+
+        // Test for search errors:
+        if (PEAR::isError($search)) {
+          Debug::text("LDAP: Search Error: " . $search->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+          return FALSE;
+        }
+
+      } // ldap configured
+    } // Net_LDAP2 available
+
+  fallback:
 		$password = $this->encryptPassword( trim(strtolower($password)) );
 		if ( $password == $this->getPassword() ) {
 			return TRUE;

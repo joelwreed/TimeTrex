@@ -360,6 +360,17 @@ function showProvince() {
 								</td>
 							</tr>
 
+							<tr onClick="showHelpEntry('hire_date')">
+								<td class="{isvalid object="uf" label="hire_date" value="cellLeftEditTable"}">
+									{t}Hire Date:{/t}
+								</td>
+								<td class="cellRightEditTable">
+									<input type="text" size="10" id="hire_date" name="user_data[hire_date]" value="{getdate type="DATE" epoch=$user_data.hire_date}">
+									<img src="{$BASE_URL}/images/cal.gif" id="cal_hire_date" width="16" height="16" border="0" alt="Pick a date" onMouseOver="calendar_setup('hire_date', 'cal_hire_date', false);">
+									{t}ie:{/t} {$current_user_prefs->getDateFormatExample()}
+								</td>
+							</tr>
+
 							{if isset($user_data.other_field_names.other_id1) }
 								<tr onClick="showHelpEntry('other_id1')">
 									<td class="{isvalid object="uf" label="other_id1" value="cellLeftEditTable"}">

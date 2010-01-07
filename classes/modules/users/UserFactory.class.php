@@ -1005,6 +1005,32 @@ class UserFactory extends Factory {
 
 		return FALSE;
 	}
+	function getFTE() {
+		if ( isset($this->data['fte']) AND $this->data['fte'] != '' ) {
+			return (int)$this->data['fte'];
+		}
+
+		return FALSE;
+	}
+	function setFTE($value) {
+		$value = $this->Validator->stripNonFloat( trim($value) );
+
+		if (
+				$value == ''
+				OR (
+					$this->Validator->isFloat(	'fte',
+                                      $value,
+                                      TTi18n::gettext('FTE number must only be digits'))
+				)
+												) {
+
+			$this->data['fte'] = $value;
+
+			return TRUE;
+		}
+
+		return FALSE;
+	}
 	function getEmployeeNumber() {
 		if ( isset($this->data['employee_number']) AND $this->data['employee_number'] != '' ) {
 			return (int)$this->data['employee_number'];

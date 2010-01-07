@@ -356,6 +356,9 @@ switch ($action) {
 		if ( isset($user_data['termination_date']) ) {
 			$uf->setTerminationDate( $user_data['termination_date'] );
 		}
+		if ( isset($user_data['fte']) ) {
+			$uf->setFTE( $user_data['fte'] );
+		}
 		if ( isset($user_data['employee_number']) ) {
 			$uf->setEmployeeNumber( $user_data['employee_number'] );
 		}

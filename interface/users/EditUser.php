@@ -359,6 +359,9 @@ switch ($action) {
 		if ( isset($user_data['fte']) ) {
 			$uf->setFTE( $user_data['fte'] );
 		}
+		if ( isset($user_data['classified']) ) {
+			$uf->setClassified( $user_data['classified'] );
+		}
 		if ( isset($user_data['employee_number']) ) {
 			$uf->setEmployeeNumber( $user_data['employee_number'] );
 		}
@@ -457,6 +460,7 @@ switch ($action) {
 	//									'phone_password' => $user->getPhonePassword(),
 										'ibutton_id' => $user->getIbuttonId(),
                     'fte' => $user->getFTE(),
+                    'classified' => $user->getClassified(),
 										'employee_number' => $user->getEmployeeNumber(),
 										'first_name' => $user->getFirstName(),
 										'middle_name' => $user->getMiddleName(),
@@ -668,6 +672,7 @@ switch ($action) {
 
 		$user_data['sex_options'] = $uf->getOptions('sex');
 		$user_data['status_options'] = $uf->getOptions('status');
+		$user_data['classified_options'] = $uf->getOptions('classified');
 
 		$clf = new CompanyListFactory();
 		$user_data['country_options'] = $clf->getOptions('country');

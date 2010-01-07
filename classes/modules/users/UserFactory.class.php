@@ -81,6 +81,12 @@ class UserFactory extends Factory {
 										20 => TTi18n::gettext('FEMALE'),
 									);
 				break;
+			case 'classified':
+				$retval = array(
+										10 => TTi18n::gettext('CLASSIFIED'),
+										20 => TTi18n::gettext('NON-CLASSIFIED'),
+									);
+				break;
 			case 'columns':
 				$retval = array(
 										'-1010-employee_number' => TTi18n::gettext('Employee #'),
@@ -1025,6 +1031,29 @@ class UserFactory extends Factory {
 												) {
 
 			$this->data['fte'] = $value;
+
+			return TRUE;
+		}
+
+		return FALSE;
+	}
+	function getClassified() {
+		if ( isset($this->data['classified_id']) ) {
+			return $this->data['classified_id'];
+		}
+
+		return FALSE;
+	}
+	function setClassified($classified) {
+		$classified = trim($classified);
+
+		if ( $this->Validator->inArrayKey(	'classified',
+											$classified,
+											TTi18n::gettext('Invalid classification type'),
+											$this->getOptions('classified') ) ) {
+
+			//$this->data['classified_id'] = Option::getByValue($classified, $this->classified_options);
+			$this->data['classified_id']= $classified;
 
 			return TRUE;
 		}

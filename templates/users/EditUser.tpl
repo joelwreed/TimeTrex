@@ -369,6 +369,17 @@ function showProvince() {
 								</td>
 							</tr>
 
+							<tr onClick="showHelpEntry('classified')">
+								<td class="{isvalid object="uf" label="classified" value="cellLeftEditTable"}">
+									{t}Classification:{/t}
+								</td>
+								<td class="cellRightEditTable">
+									<select name="user_data[classified]">
+										{html_options options=$user_data.classified_options selected=$user_data.classified}
+									</select>
+								</td>
+							</tr>
+
 							{if isset($user_data.other_field_names.other_id1) }
 								<tr onClick="showHelpEntry('other_id1')">
 									<td class="{isvalid object="uf" label="other_id1" value="cellLeftEditTable"}">

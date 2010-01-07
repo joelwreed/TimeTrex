@@ -572,10 +572,9 @@ class UserFactory extends Factory {
         Debug::text("LDAP: Binding with " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
         $ldap = Net_LDAP2::connect($lcfg);
 
-        $fallback = $config_vars['ldap']['fallback'];
         if (PEAR::isError($ldap)) {
           Debug::text("LDAP: Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
-          if ($fallback) goto fallback;
+          return FALSE;
         }
 
         if ($authtype == "bind") return TRUE;
@@ -597,7 +596,6 @@ class UserFactory extends Factory {
       } // ldap configured
     } // Net_LDAP2 available
 
-  fallback:
 		$password = $this->encryptPassword( trim(strtolower($password)) );
 		if ( $password == $this->getPassword() ) {
 			return TRUE;

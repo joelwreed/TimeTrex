@@ -557,11 +557,11 @@ class UserFactory extends Factory {
 
         // are we doing bind auth or search based auth?
         $bindpw = $config_vars['ldap']['bindpw'];
-        $authtype = ($bindpw == '')? "bind" : "search";
-
+        $authtype = ($bindpw == '') ? "bind" : "search";
+        
         // if bindauth, setup real binddn and bindpw with user login creds
         if ($authtype == "bind") {
-          $binddn = sprintf($binddn, escape_dn_value($this->data['user_name']));
+          $binddn = sprintf($binddn, $this->data['user_name']);
           $bindpw = $password;
         }
 
@@ -579,8 +579,8 @@ class UserFactory extends Factory {
 
         if ($authtype == "bind") return TRUE;
 
-        Debug::text("LDAP: binding with " . $binddn, __FILE__, __LINE__, __METHOD__, 10);
         $filter = sprintf($config_vars['ldap']['filter'], $this->data['user_name']);
+        Debug::text("LDAP: Searching with " . $filter, __FILE__, __LINE__, __METHOD__, 10);
         $searchbase = $config_vars['ldap']['searchbase'];
         $options = array('scope' => 'sub', 'attributes' => array('userPassword'));
 

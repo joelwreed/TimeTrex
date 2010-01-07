@@ -360,14 +360,12 @@ function showProvince() {
 								</td>
 							</tr>
 
-							<tr onClick="showHelpEntry('hire_date')">
-								<td class="{isvalid object="uf" label="hire_date" value="cellLeftEditTable"}">
-									{t}Hire Date:{/t}
+							<tr onClick="showHelpEntry('fte')">
+								<td class="{isvalid object="uf" label="fte" value="cellLeftEditTable"}">
+									{t}FTE:{/t}
 								</td>
 								<td class="cellRightEditTable">
-									<input type="text" size="10" id="hire_date" name="user_data[hire_date]" value="{getdate type="DATE" epoch=$user_data.hire_date}">
-									<img src="{$BASE_URL}/images/cal.gif" id="cal_hire_date" width="16" height="16" border="0" alt="Pick a date" onMouseOver="calendar_setup('hire_date', 'cal_hire_date', false);">
-									{t}ie:{/t} {$current_user_prefs->getDateFormatExample()}
+									<input type="text" size="4" name="user_data[fte]" value="{$user_data.fte}">
 								</td>
 							</tr>
 

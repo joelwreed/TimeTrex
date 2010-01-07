@@ -1007,7 +1007,7 @@ class UserFactory extends Factory {
 	}
 	function getFTE() {
 		if ( isset($this->data['fte']) AND $this->data['fte'] != '' ) {
-			return (int)$this->data['fte'];
+			return $this->data['fte'];
 		}
 
 		return FALSE;
@@ -1020,7 +1020,7 @@ class UserFactory extends Factory {
 				OR (
 					$this->Validator->isFloat(	'fte',
                                       $value,
-                                      TTi18n::gettext('FTE number must only be digits'))
+                                      TTi18n::gettext('FTE number must be a number less than or equal to one'))
 				)
 												) {
 

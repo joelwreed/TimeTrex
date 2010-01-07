@@ -456,6 +456,7 @@ switch ($action) {
 										'phone_id' => $user->getPhoneId(),
 	//									'phone_password' => $user->getPhonePassword(),
 										'ibutton_id' => $user->getIbuttonId(),
+                    'fte' => $user->getFTE(),
 										'employee_number' => $user->getEmployeeNumber(),
 										'first_name' => $user->getFirstName(),
 										'middle_name' => $user->getMiddleName(),

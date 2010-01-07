@@ -566,6 +566,10 @@ class UserFactory extends Factory {
 					return TRUE;
 
 				Debug::text("LDAP Authentication Error: " . $ldap->getMessage(), __FILE__, __LINE__, __METHOD__, 10);
+
+				// if no fallthru permitted, and ldap auth failed then deny access
+				if ($config_vars['ldap']['only_auth'])
+					return FALSE;
 			}
 		}
 

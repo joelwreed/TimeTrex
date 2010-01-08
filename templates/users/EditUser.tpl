@@ -380,12 +380,12 @@ function showProvince() {
 								</td>
 							</tr>
 
-							<tr onClick="showHelpEntry('manager')">
-								<td class="{isvalid object="uf" label="manager" value="cellLeftEditTable"}">
+							<tr onClick="showHelpEntry('manager_id')">
+								<td class="{isvalid object="uf" label="manager_id" value="cellLeftEditTable"}">
 									{t}Manager:{/t}
 								</td>
 								<td class="cellRightEditTable">
-									<select name="user_data[manager]">
+									<select name="user_data[manager_id]">
 										{html_options options=$user_data.manager_options selected=$user_data.manager_id}
 									</select>
 								</td>

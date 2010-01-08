@@ -1060,6 +1060,33 @@ class UserFactory extends Factory {
 
 		return FALSE;
 	}
+	function getManagerId() {
+		if ( isset($this->data['manager_id']) ) {
+			return $this->data['manager_id'];
+		}
+
+		return FALSE;
+	}
+	function setManagerId($id) {
+		$id = (int)trim($id);
+
+		Debug::Text('Manager ID: '. $id, __FILE__, __LINE__, __METHOD__,10);
+		$ulf = new UserListFactory();
+
+		if (	$id == 0
+				OR
+				$this->Validator->isResultSetWithRows(	'user',
+														$ulf->getByID($id),
+														TTi18n::gettext('Manager is invalid')
+													) ) {
+
+			$this->data['manager_id'] = $id;
+
+			return TRUE;
+		}
+
+		return FALSE;
+	}
 	function getEmployeeNumber() {
 		if ( isset($this->data['employee_number']) AND $this->data['employee_number'] != '' ) {
 			return (int)$this->data['employee_number'];

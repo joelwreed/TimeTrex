@@ -362,6 +362,9 @@ switch ($action) {
 		if ( isset($user_data['classified']) ) {
 			$uf->setClassified( $user_data['classified'] );
 		}
+		if ( isset($user_data['manager_id']) ) {
+			$uf->setManagerId($user_data['manager_id']);
+		}
 		if ( isset($user_data['employee_number']) ) {
 			$uf->setEmployeeNumber( $user_data['employee_number'] );
 		}
@@ -459,8 +462,9 @@ switch ($action) {
 										'phone_id' => $user->getPhoneId(),
 	//									'phone_password' => $user->getPhonePassword(),
 										'ibutton_id' => $user->getIbuttonId(),
-                    'fte' => $user->getFTE(),
-                    'classified' => $user->getClassified(),
+										'fte' => $user->getFTE(),
+										'classified' => $user->getClassified(),
+										'manager_id' => $user->getManagerId(),
 										'employee_number' => $user->getEmployeeNumber(),
 										'first_name' => $user->getFirstName(),
 										'middle_name' => $user->getMiddleName(),

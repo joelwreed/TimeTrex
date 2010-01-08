@@ -682,6 +682,10 @@ switch ($action) {
 		$user_titles = $utlf->getByCompanyIdArray( $company_id );
 		$user_data['title_options'] = $user_titles;
 
+		$filter_data = array('exclude_user_ids' => array($id));
+		$ulf->getSearchByCompanyIdAndArrayCriteria( $company_id, $filter_data );
+		$user_data['manager_options'] = UserListFactory::getArrayByListFactory( $ulf, FALSE, TRUE );
+
 		//Get Permission Groups
 		$pclf = new PermissionControlListFactory();
 		$pclf->getByCompanyId( $company_id );
